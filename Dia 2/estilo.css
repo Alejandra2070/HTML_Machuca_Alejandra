@@ -7,22 +7,38 @@
 
 .info1 {
 
-    background-color: aquamarine;
+    background-color: beige;
     padding: 25px;
     margin: 0 10px;
 }
 
 .info2 {
 
-    background-color: blueviolet;
+    background-color: beige;
     padding: 25px;
     margin: 0 10px;
 }
 
 .info3 {
 
-    background-color: blanchedalmond;
+    background-color: beige;
     padding: 25px;
     margin: 0 10px;
 
+}
+
+.Aleja {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.Certificado {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 10%;
 }
