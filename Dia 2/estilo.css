@@ -1,0 +1,28 @@
+.informacion{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.info1 {
+
+    background-color: aquamarine;
+    padding: 25px;
+    margin: 0 10px;
+}
+
+.info2 {
+
+    background-color: blueviolet;
+    padding: 25px;
+    margin: 0 10px;
+}
+
+.info3 {
+
+    background-color: blanchedalmond;
+    padding: 25px;
+    margin: 0 10px;
+
+}
