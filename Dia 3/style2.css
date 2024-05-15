@@ -6,10 +6,10 @@ body {
     background: rgb(128, 128, 128);
     background: linear-gradient(0deg, rgba(128, 128, 128, 1) 33%, rgba(255, 255, 255, 1) 100%);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    transition: all 300ms;
+    transition: all 250px;
 }
 
-.Contenedor{
+.Cont{
     position: relative;
     margin: auto;
     width: 1400px;
@@ -18,28 +18,27 @@ body {
     top: 140px;
 }
 
-.linea {
-    bottom:427px;
-    left: 1290px;
+.cuadroNegro {
+    position: relative;
     width: 110px;
     height: 802px;
     background-color: #212020;
-    position: relative;
+    left: 1290px;
+    bottom: 426px;
 }
-
 .linea .uno {
-    bottom:-40px;
+    bottom: -40px;
     left: 45px;
-    width: 23.62px;
-    height: 13.5px;
+    width: 23px;
+    height: 13px;
     position: relative;
 }
 
 .linea .dos {
     top: 750px;
     left: 15px;
-    width: 23.62px;
-    height: 13.5px;
+    width: 23px;
+    height: 13px;
     position: relative;
 
 }
@@ -50,7 +49,7 @@ body {
     position: relative;
 }
 
-.linea a {
+.lineap {
     color: white;
     text-align: center;
     bottom: 70px;
@@ -59,7 +58,7 @@ body {
     
 }
 
-.Cont {
+.contenido {
     top: 43px;
     width: 1400px;
     left: 43px;
@@ -67,24 +66,24 @@ body {
     position: relative;
 }
 
-.Cont .uno {
+.contenido .uno {
     color: black;
     font-size: 30px;
-    left: 533px;
-    bottom: 26px;
-    text-decoration: none;
+    left: 567px;
+    bottom: 25px;
     position: relative;
 }
 
-.Cont .dos {
-    left: 972px;
-    bottom: 155px;
+.contenido .dos {
+    left: 946px;
+    bottom: 95px;
     color: black;
     font-size: 30px;
     position: relative;
 }
 
-.Cont .lupita {
+#contenidolupita {
+    top: -158px;
     bottom: 155px;
     left: 1100px;
     width: 27px;
@@ -92,42 +91,42 @@ body {
     position: relative;
 }
 
-.Cont .carrito {
-    bottom: 155px;
-    left: 1150px;
-    width: 27px;
-    height: 27px;
+#contenidocarrito {
     position: relative;
+    left: 1150px;
+    bottom: 155px;
+    width: 34px;
+    height: 34px;
 }
 
-.Cont imagenes {
+.contenidoimagenes {
     width: 196px;
     height: 44px;
 }
 
-.Cont h1 {
+.contenidoh1 {
     bottom: 200px;
     left: 974px;
     font-weight: bold;
     position: relative;
 }
 
-.CuadroPeque {
-    bottom: 580px;
+.CuadroPequeño {
+    bottom: 595px;
     left: 1100px;
     width: 160px;
     height: 114px;
     position: relative;
     background-color: #D5FF43;
     border-radius: 10px;
-    transition: all 300ms;
+    transition: all 250ms;
 }
 
-.CuadroPeque:hover {
+.CuadroPequeño:hover {
     transform: scale(1.1);
 }
 
-.CuadroPeque imagen {
+.CuadroPequeñoimagen {
     top: 20px;
     left: 20px;
     width: 129px;
@@ -135,40 +134,46 @@ body {
     position: relative;
 }
 
-.CuadroPeque p {
+.CuadroPequeñop {
     left: 30px;
     font-size: 26px;
     font-weight: bold;
     position: relative;
 }
 
-.saldo {
-    text-align: center;
-    bottom: 900px;
+#saldo {
     position: relative;
+    bottom: 900px;
+    text-align: center;
 }
 
-.saldo h1 {
+#saldoh1 {
     font-size: 40px;
 }
 
-.saldo p {
-    font-weight: bold;
+.saldop {
     font-size: 27px;
+    font-weight: bold;
 }
 
-.saldo .Entrada{
-    height: 58px;
-    width: 288px;
+.saldoe {
     border-radius: 10px;
+    width: 288px;
+    height: 58px;
     text-align: center;
     font-size: 30px;
     border: 0.5px solid gray;
 }
 
-.tarjeta {
-    height: 320px;
-    left: 435px;
+#tarjeta {
     position: relative;
+    left: 435px;
+    height: 320px;
     width: 530px;
+}
+
+#barra {
+    position: relative;
+    top: -221px;
+    left: 957px;
 }
