@@ -1,33 +1,34 @@
-html{
+html {
     height: 100%;
 }
 
 body {
     background: rgb(128, 128, 128);
-    background: linear-gradient(0deg,  rgba(128, 128, 128, 1) 33%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(128, 128, 128, 1) 33%, rgba(255, 255, 255, 1) 100%);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all 300ms;
 }
 
-.Contenedor {
+.Contenedor{
     position: relative;
-    top: 140px;
     margin: auto;
-    height: 800px;
     width: 1400px;
+    height: 800px;
     background-color: #FFFFFF;
+    top: 140px;
 }
 
 .linea {
-    position: relative;
+    bottom:427px;
+    left: 1290px;
     width: 110px;
     height: 802px;
     background-color: #212020;
-    left: 1290px;
-    bottom: 601px;
+    position: relative;
 }
+
 .linea .uno {
-    bottom: 120px;
+    bottom:-40px;
     left: 45px;
     width: 23.62px;
     height: 13.5px;
@@ -36,7 +37,7 @@ body {
 
 .linea .dos {
     top: 750px;
-    left: 18px;
+    left: 15px;
     width: 23.62px;
     height: 13.5px;
     position: relative;
@@ -44,7 +45,7 @@ body {
 }
 
 .linea .tres {
-    right: 15px;
+    right: -20px;
     top: 300px;
     position: relative;
 }
@@ -69,8 +70,8 @@ body {
 .Cont .uno {
     color: black;
     font-size: 30px;
-    left: 733px;
-    bottom: 86px;
+    left: 533px;
+    bottom: 26px;
     text-decoration: none;
     position: relative;
 }
@@ -81,20 +82,19 @@ body {
     color: black;
     font-size: 30px;
     position: relative;
-    text-decoration: none;
 }
 
 .Cont .lupita {
-    bottom: 150px;
-    left: 980px;
+    bottom: 155px;
+    left: 1100px;
     width: 27px;
     height: 27px;
     position: relative;
 }
 
 .Cont .carrito {
-    bottom: 150px;
-    left: 1030px;
+    bottom: 155px;
+    left: 1150px;
     width: 27px;
     height: 27px;
     position: relative;
@@ -107,13 +107,13 @@ body {
 
 .Cont h1 {
     bottom: 200px;
-    left: 754px;
+    left: 974px;
     font-weight: bold;
     position: relative;
 }
 
 .CuadroPeque {
-    bottom: 800px;
+    bottom: 580px;
     left: 1100px;
     width: 160px;
     height: 114px;
@@ -142,26 +142,33 @@ body {
     position: relative;
 }
 
-.comprador {
-    position: relative;
+.saldo {
+    text-align: center;
     bottom: 900px;
-    left: 58px;
+    position: relative;
 }
 
-.comprador h2 {
+.saldo h1 {
     font-size: 40px;
-    font-weight: bold;
-    position: relative;
-    bottom: 5px;
 }
 
-.comprador a {
+.saldo p {
+    font-weight: bold;
     font-size: 27px;
-    position: relative;
-    bottom: 39px;
+}
+
+.saldo .Entrada{
+    height: 58px;
+    width: 288px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    border: 0.5px solid gray;
 }
 
 .tarjeta {
+    height: 320px;
+    left: 435px;
     position: relative;
-    left: 100px;
+    width: 530px;
 }
