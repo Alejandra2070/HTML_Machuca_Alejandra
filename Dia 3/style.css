@@ -1,6 +1,4 @@
-html{
-    height: 100%;
-}
+
 
 body {
     background: rgb(128, 128, 128);
@@ -18,12 +16,13 @@ body {
     background-color: #FFFFFF;
 }
 
-.linea {
+#linea {
     position: relative;
-    width: 110px;
-    height: 802px;
+    top: -900px;
+    width: 100px;
+    height: 800px;
     background-color: #212020;
-    left: 1290px;
+    left: 1800px;
     bottom: 601px;
 }
 .linea .uno {
@@ -93,14 +92,14 @@ body {
 }
 
 .Cont .carrito {
-    bottom: 150px;
-    left: 1030px;
+    position: relative;
+    bottom: 100px;
+    left: 5000px;
     width: 27px;
     height: 27px;
-    position: relative;
 }
 
-.Cont imagenes {
+.Cont .imagenes {
     width: 196px;
     height: 44px;
 }
