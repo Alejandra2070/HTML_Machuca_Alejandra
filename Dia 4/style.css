@@ -1,5 +1,6 @@
-html{
-    size-adjust: 1080px;
+@font-face {
+    font-family: letra;
+    src: url(tiposLetras/AmazonEmber_Th.ttf);
 }
 
 .contenido {
@@ -12,9 +13,10 @@ html{
     left: 2px;
     width: 1918px;
     height: 4149px;
-    background: transparent url('imagenes/Path1.png') 0% 0% no-repeat padding-box;
-    border: lpx solid #707070;
+    background: black;
+    border: 1px solid #707070;
     opacity: 1;
+    border: red 5px solid;
 }
 
 #fondoTwitch {
@@ -39,12 +41,15 @@ html{
 
 #yourFavorite {
     position: relative;
-    top: -820px;
-    left: -173px;
+    color: #FFFFFF;
+    top: -950px;
+    left: 446px;
     width: 1151px;
     height: 60px;
-    background: transparent url('imagenes/YourFavorite.png') 0% 0% no-repeat padding-box;
+    background: transparent;
     opacity: 1;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 63px;
 }
 
 #search {
@@ -63,40 +68,44 @@ html{
     left: 1695px;
     width: 205px;
     height: 54px;
-    /* UI Properties */
     background: transparent url('imagenes/Group1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 #login {
     position: relative;
-    top: -1424px;
-    left: 1565px;
     width: 50px;
     height: 20px;
-    /* UI Properties */
-    background: transparent url('imagenes/Login.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: rgb(255, 255, 255);
+    border-radius: 108px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: letra;
+    top: -1545px;
+    left: 1796px;
 }
 
 #nowYou {
     position: relative;
-    top: -790px;
-    left: 114px;
+    top: -1028px;
+    left: 460px;
     width: 1160px;
     height: 102px;
-    /* UI Properties */
-    background: transparent url('imagenes/NowYou.png') 0% 0% no-repeat padding-box;
+    background: transparent;
     opacity: 1;
+    font-family: letra;
+    color: #FFFFFF;
+    font-size: 32px;
 }
 
 #rectangle2 {
     position: relative;
-    top: -642px;
-    left: -707px;
+    top: -1051px;
+    left: 733px;
     width: 458px;
     height: 104px;
-    /* UI Properties */
     background: transparent url('imagenes/Rectangle2.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 52px;
@@ -105,19 +114,19 @@ html{
 
 #signUp{
     position: relative;
-    top: -717px;
+    top: -1026px;
     left: 775px;
     width: 360px;
     height: 40px;
-    /* UI Properties */
-    background: transparent url('imagenes/Sign-UpAmazon.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: transparent;
+    opacity: 1;color: white;
+    font-size: 40px;
 }
 
 #group2 {
     position: relative;
-    top: -451px;
-    left: 64px;
+    top: 170px;
+    left: -413px;
     width: 1792px;
     height: 567px;
     /* UI Properties */
@@ -127,8 +136,8 @@ html{
 
 #rectangle1 {
     position: relative;
-    top: -415px;
-    left: 64px;
+    top: 203px;
+    left: -410px;
     width: 1792px;
     height: 724px;
     /* UI Properties */
@@ -139,8 +148,8 @@ html{
 
 #dontLike {
     position: relative;
-    top: -1343px;
-    left: 130px;
+    top: -438px;
+    left: -337px;
     width: 1664px;
     height: 60px;
     /* UI Properties */
@@ -150,13 +159,14 @@ html{
 
 #youFind {
     position: relative;
-    top: -1219px;
-    left: 207px;
+    top: -339px;
+    left: -257px;
     width: 1492px;
     height: 110px;
-    /* UI Properties */
-    background: transparent url('imagenes/YouFind.png') 0% 0% no-repeat padding-box;
+    background: transparent;
     opacity: 1;
+    color: #FFFFFF;
+    font-size: 30px;
 }
 
 #rectangle4 {
@@ -221,8 +231,8 @@ html{
 
 #rectangle0 {
     position: relative;
-    top: -1141px;
-    left: 64px;
+    top: -257px;
+    left: -401px;
     width: 1792px;
     height: 567px;
     background: transparent url('imagenes/Rectangle0.png') 0% 0% no-repeat padding-box;
