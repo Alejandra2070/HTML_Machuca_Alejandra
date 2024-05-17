@@ -1,23 +1,385 @@
 html{
-    height: 100%;
+    size-adjust: 1080px;
 }
 
+.contenido {
+    width: 65%;
+    margin: 0 auto;
+}
 .fondoComplet {
+    position: relative;
     top: 0px;
     left: 2px;
     width: 1918px;
     height: 4149px;
-    background: transparent url("imagenes/Path\ 1.png") 0% 0% no-repeat padding-box;
+    background: transparent url('imagenes/Path1.png') 0% 0% no-repeat padding-box;
     border: lpx solid #707070;
     opacity: 1;
 }
 
-.fondoTwitch {
-    top: 0px;
+#fondoTwitch {
+    position: relative;
+    top: -4144px;
     left: 0px;
     width: 1920px;
     height: 1080px;
-    /* UI Properties */
-    background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+    background: transparent url('imagenes/FondoTwitch.png') 0% 0% no-repeat padding-box;
     opacity: 0.35;
+}
+
+#logoPrime {
+    position: relative;
+    top: -858px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    background: transparent url('imagenes/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#yourFavorite {
+    position: relative;
+    top: -820px;
+    left: -173px;
+    width: 1151px;
+    height: 60px;
+    background: transparent url('imagenes/YourFavorite.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#search {
+    position: relative;
+    top: -1328px;
+    left: -1662px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('imagenes/search.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#group1 {
+    position: relative;
+    top: -1409px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    /* UI Properties */
+    background: transparent url('imagenes/Group1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#login {
+    position: relative;
+    top: -1424px;
+    left: 1565px;
+    width: 50px;
+    height: 20px;
+    /* UI Properties */
+    background: transparent url('imagenes/Login.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#nowYou {
+    position: relative;
+    top: -790px;
+    left: 114px;
+    width: 1160px;
+    height: 102px;
+    /* UI Properties */
+    background: transparent url('imagenes/NowYou.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rectangle2 {
+    position: relative;
+    top: -642px;
+    left: -707px;
+    width: 458px;
+    height: 104px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}
+
+#signUp{
+    position: relative;
+    top: -717px;
+    left: 775px;
+    width: 360px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('imagenes/Sign-UpAmazon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#group2 {
+    position: relative;
+    top: -451px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    /* UI Properties */
+    background: transparent url('imagenes/Group2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rectangle1 {
+    position: relative;
+    top: -415px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle1.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+#dontLike {
+    position: relative;
+    top: -1343px;
+    left: 130px;
+    width: 1664px;
+    height: 60px;
+    /* UI Properties */
+    background: transparent url('imagenes/DontLike.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#youFind {
+    position: relative;
+    top: -1219px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    /* UI Properties */
+    background: transparent url('imagenes/YouFind.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rectangle4 {
+    position: relative;
+    top: -973px;
+    left: -1197px;
+    width: 181px;
+    height: 309px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#rectangle5 {
+    position: relative;
+    top: -1291px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle5.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#rectangle6 {
+    position: relative;
+    top: -1291px;
+    left: 680px;
+    width: 180px;
+    height: 309px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle6.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#rectangle7 {
+    position: relative;
+    top: -1291px;
+    left: 690px;
+    width: 181px;
+    height: 309px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle7.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#rectangle8 {
+    position: relative;
+    top: -1291px;
+    left: 700px;
+    width: 181px;
+    height: 309px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle8.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#rectangle0 {
+    position: relative;
+    top: -1141px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('imagenes/Rectangle0.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.rectangle3 {
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    /* UI Properties */
+    background: transparent url('imagenes/Rectangle3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+#cancelAny {
+    position: relative;
+    top: -1724px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    /* UI Properties */
+    background: transparent url('imagenes/CancelAny.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#ifYou {
+    position: relative;
+    top: -1461px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    /* UI Properties */
+    background: transparent url('imagenes/IfYou.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#iconMetro {
+    position: relative;
+    top: -1507px;
+    left: 69px;
+    width: 169px;
+    height: 169px;
+    /* UI Properties */
+    background: transparent url('imagenes/IconMetro-cancel.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#compatibleDevices {
+    position: relative;
+    top: -1328px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    /* UI Properties */
+    background: transparent url('imagenes/compatibleDevices.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#theresRange {
+    position: relative;
+    top: -1287px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    /* UI Properties */
+    background: transparent url('imagenes/TheresRange.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#image1 {
+    position: relative;
+    top: -1219px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    /* UI Properties */
+    background: transparent url('imagenes/Image1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#image2 {
+    position: relative;
+    top: -1368px;
+    left: -206px;
+    width: 256px;
+    height: 219px;
+    /* UI Properties */
+    background: transparent url('imagenes/Image2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#image3 {
+    position: relative;
+    top: -1371px;
+    left: 437px;
+    width: 271px;
+    height: 238px;
+    /* UI Properties */
+    background: transparent url('imagenes/Image3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#logoCace {
+    position: relative;
+    top: -1010px;
+    left: -402px;
+    width: 430px;
+    height: 241px;
+    /* UI Properties */
+    background: transparent url('imagenes/LogoCACE.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#poweredBy {
+    position: relative;
+    top: -1204px;
+    left: -285px;
+    width: 92px;
+    height: 20px;
+    /* UI Properties */
+    background: transparent url('imagenes/PoweredBy.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#group5 {
+    position: relative;
+    top: -1131px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    /* UI Properties */
+    background: transparent url('imagenes/Group5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#flecha {
+    position: relative;
+    top: -1516px;
+    left: -518px;
+    width: 19px;
+    height: 27px;
+    transform: matrix(0.03,-1, 0.03, 0, 0);
+    background: transparent url('imagenes/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#flecha2 {
+    position: relative;
+    top: -1514px;
+    left: 725px;
+    width: 19px;
+    height: 27px;
+    transform: rotate(190deg);
+    background: transparent url('imagenes/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
