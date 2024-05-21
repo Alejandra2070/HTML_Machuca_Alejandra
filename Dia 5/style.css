@@ -1,3 +1,833 @@
-body {
+@font-face {
+    font-family: letra;
+    src: url(tipografia/Poppins-Light.ttf);
+    font-family: letra1;
+    src: url(tipografia/Poppins-ExtraLight.ttf);
+}
+
+.contenido {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fondoCompleto1{
     background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+#foods{
+    position: relative;
+    color: #fd6f2a;
+    top:-60px;
+    left: 835px;
+    width: 0px;
+    font-family: letra;
+    font-size: 60px;
+}
+
+#home{
+    position: relative;
+    color: #efeff0;
+    top: -30px;
+    left: 1168px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#about{
+    position: relative;
+    color: #efeff0;
+    top: -100px;
+    left: 1315px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#menu{
+    position: relative;
+    color: #efeff0;
+    top: -165px;
+    left: 1458px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#service{
+    position: relative;
+    color: #efeff0;
+    top:-234px;
+    left: 1586px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#contact{
+    position: relative;
+    color: #efeff0;
+    top:-302px;
+    left: 1735px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#fullWeb{
+    position: relative;
+    color: #fd6f2a;
+    top:-181px;
+    left: 397px;
+    width: -8px;
+    font-family: letra;
+    font-size: 94px;
+}
+
+#homeimg{
+    position: relative;
+    top:-651px;
+    left: 1015px;
+    width: 520px;
+}
+
+#foods{
+    position: relative;
+    color: #efeff0;
+    top:-247px;
+    left: 400px;
+    width: 171px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#foods2{
+    position: relative;
+    color: #efeff0;
+    top:-256px;
+    left: 400px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+.cuadro {
+    position: relative;
+    width: 217px;
+    height: 24px;
+    background-color: #fd6f2a;
+    border: 1px solid #ccc;
+    padding: 20px;
+    top: -781px;
+    left: 400px;
+}
+
+#textoCuadro{
+    position: relative;
+    color: #efeff0;
+    top: -48px;
+    left: 5px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+.fondoCompleto2{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+#imgabout{
+    position: relative;
+    top: 200px;
+    left: 480px;
+    width: 474px;
+}
+
+#aboutUs{
+    position: relative;
+    color: #fd6f2a;
+    top:-207px;
+    left: 1050px;
+    width: -8px;
+    font-family: letra;
+    font-size: 26px;
+}
+
+#weSpeak{
+    position: relative;
+    color: #efeff0;
+    top: -234px;
+    left: 1050px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+
+#foodLanguage{
+    position: relative;
+    color: #efeff0;
+    top: -272px;
+    left: 1050px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+
+#itIs{
+    position: relative;
+    color: #efeff0;
+    top: -290px;
+    left: 1050px;
+    width: 359px;
+    font-family: letra1;
+    font-size: 20px;
+}
+
+.cuadro2 {
+    position: relative;
+    width: 177px;
+    height: 25px;
+    background-color: #fd6f2a;
+    border: 1px solid #ccc;
+    padding: 5px;
+    top: -288px;
+    left: 1050px;
+}
+
+#textoCuadro2{
+    position: relative;
+    color: #efeff0;
+    top: -24px;
+    left: 31px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 20px;
+}
+
+.fondoCompleto3{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+#foodMenu{
+    position: relative;
+    color: #fd6f2a;
+    top:91px;
+    left: 924px;
+    width: -8px;
+    font-family: letra;
+    font-size: 32px;
+}
+
+#freshTaste{
+    position: relative;
+    color: #efeff0;
+    top: 36px;
+    left: 647px;
+    width: 694px;
+    font-family: letra1;
+    font-size: 54px;
+}
+
+#food1{
+    position: relative;
+    top: 9px;
+    left: 71px;
+    width: 294px;
+}
+
+.burgerChickenCuadro{
+    position: relative;
+    width: 434px;
+    height: 434px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: 38px;
+    left: 250px;
+}
+
+#chickenBurger{
+    position: relative;
+    color: black;
+    top: -24px;
+    left: 93px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 34px;
+}
+
+#tastyFood{
+    position: relative;
+    color: black;
+    top: -58px;
+    left: 138px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 26px;
+}
+
+#number{
+    position: relative;
+    color: #fd6f2a;
+    top:-87px;
+    left: 173px;
+    width: -8px;
+    font-family: letra;
+    font-size: 26px;
+}
+
+#food2{
+    position: relative;
+    top: -14px;
+    left: 50px;
+    width: 318px;
+}
+
+.beefBurgerCuadro{
+    position: relative;
+    width: 434px;
+    height: 434px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: -408px;
+    left: 765px;
+}
+
+#specialBeef{
+    position: relative;
+    color: black;
+    top: -62px;
+    left: 62px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+#tastyFood2{
+    position: relative;
+    color: black;
+    top: -92px;
+    left: 138px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 27px;
+}
+
+#number2{
+    position: relative;
+    color: #fd6f2a;
+    top:-117px;
+    left: 173px;
+    width: -8px;
+    font-family: letra;
+    font-size: 27px;
+}
+
+#food3{
+    position: relative;
+    top: 4px;
+    left: 78px;
+    width: 272px;
+}
+
+.chickenFryCuadro{
+    position: relative;
+    width: 434px;
+    height: 434px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: -854px;
+    left: 1279px;
+}
+
+#chickenFry{
+    position: relative;
+    color: black;
+    top: -19px;
+    left: 62px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+
+#tastyFood3{
+    position: relative;
+    color: black;
+    top: -54px;
+    left: 138px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 27px;
+}
+
+#number3{
+    position: relative;
+    color: #fd6f2a;
+    top:-79px;
+    left: 173px;
+    width: -8px;
+    font-family: letra;
+    font-size: 27px;
+}
+
+.fondoCompleto4{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+
+#services{
+    position: relative;
+    color: #fd6f2a;
+    top: 36px;
+    left: 930px;
+    width: -8px;
+    font-family: letra;
+    font-size: 32px;
+}
+
+#weProvide{
+    position: relative;
+    color: #efeff0;
+    top: 33px;
+    left: 586px;
+    width: 845px;
+    font-family: letra1;
+    font-size: 57px;
+}
+
+#s1{
+    position: relative;
+    top: 42px;
+    left: 328px;
+    width: 312px;
+}
+
+#order{
+    position: relative;
+    color: #fd6f2a;
+    top: -13px;
+    left: 432px;
+    width: -8px;
+    font-family: letra;
+    font-size: 36px;
+}
+
+#established{
+    position: relative;
+    color: #efeff0;
+    top: -39px;
+    left: 266px;
+    width: 553px;
+    font-family: letra;
+    font-size: 39px;
+}
+
+#s2{
+    position: relative;
+    top: -581px;
+    left: 823px;
+    width: 316px;
+}
+
+#shipping{
+    position: relative;
+    color: #fd6f2a;
+    top: -623px;
+    left: 887px;
+    width: -8px;
+    font-family: letra;
+    font-size: 36px;
+}
+
+#established2{
+    position: relative;
+    color: #efeff0;
+    top: -649px;
+    left: 765px;
+    width: 553px;
+    font-family: letra;
+    font-size: 39px;
+}
+
+#s3{
+    position: relative;
+    top: -1165px;
+    left: 1337px;
+    width: 276px;
+}
+
+#dellvered{
+    position: relative;
+    color: #fd6f2a;
+    top: -1193px;
+    left: 1390px;
+    width: -8px;
+    font-family: letra;
+    font-size: 36px;
+}
+
+#established3{
+    position: relative;
+    color: #efeff0;
+    top: -1219px;
+    left: 1358px;
+    width: 553px;
+    font-family: letra;
+    font-size: 39px;
+}
+
+.fondoCompleto5{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+.cuadroPart5{
+    position: relative;
+    width: 1608px;
+    height: 564px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: 124px;
+    left: 148px;
+}
+
+#makeQuality{
+    position: relative;
+    color: black;
+    top: 105px;
+    left: 465px;
+    width: 759px;
+    font-family: letra1;
+    font-size: 70px;
+    text-align: center;
+}
+
+.cuadrito{
+    position: relative;
+    width: 172px;
+    height: 31px;
+    background-color: #fd6f2a;
+    border: 1px solid #ccc;
+    padding: 5px;
+    top: 35px;
+    left: 752px;
+}
+
+#learnMore{
+    position: relative;
+    color: #efeff0;
+    top: -24px;
+    left: 31px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+.fondoCompleto6{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 636px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+.menu{
+    position: relative;
+    color: #efeff0;
+    top: -24px;
+    left: 31px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#menuLinks{
+    position: relative;
+    color: white;
+    top: 97px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 34px;
+}
+
+#home{
+    position: relative;
+    color: #efeff0;
+    top: 87px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#about{
+    position: relative;
+    color: #efeff0;
+    top: 81px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#menu{
+    position: relative;
+    color: #efeff0;
+    top: 76px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#service{
+    position: relative;
+    color: #efeff0;
+    top: 72px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#contacts{
+    position: relative;
+    color: #efeff0;
+    top: 66px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#barra{
+    position: relative;
+    top: -200px;
+    left: 724px;
+    background-color: #fd6f2a;
+}
+
+.our{
+    position: relative;
+    color: #efeff0;
+    top: -299px;
+    left: 614px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#ourService{
+    position: relative;
+    color: #efeff0;
+    top: 66px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+#webDesign{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#webDevelopment{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#marketing{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#productManagement{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#graphicDesign{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+.informacion{
+    position: relative;
+    color: #efeff0;
+    top: -299px;
+    left: 614px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#information{
+    position: relative;
+    color: #efeff0;
+    top: -372px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#aboutUs{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#delivery{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#privacy{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#terms{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+.contact{
+    position: relative;
+    color: #efeff0;
+    top: -299px;
+    left: 614px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#contactUs{
+    position: relative;
+    color: #efeff0;
+    top: -729px;
+    left: 684px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#circulo1{
+    position: relative;
+    color:#ff702a;
+    top: -1917px;
+    left: 1777px;
+    width: 74px;
+    height: 63px;
+    font-family: letra1;
+    font-size: 32px;
+    border-radius: 50%;
+}
+
+#circulo2{
+    position: relative;
+    color:#ff702a;
+    top: -1917px;
+    left: 1777px;
+    width: 74px;
+    height: 63px;
+    font-family: letra1;
+    font-size: 32px;
+    border-radius: 50%;
+}
+
+#circulo3{
+    position: relative;
+    color:#ff702a;
+    top: -1917px;
+    left: 1777px;
+    width: 74px;
+    height: 63px;
+    font-family: letra1;
+    font-size: 32px;
+    border-radius: 50%;
 }
