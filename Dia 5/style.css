@@ -24,67 +24,68 @@
 #foods{
     position: relative;
     color: #fd6f2a;
-    top:-60px;
-    left: 835px;
+    top:-8px;
+    left: 148px;
     width: 0px;
     font-family: letra;
     font-size: 60px;
 }
 
-#home{
+#home1{
     position: relative;
     color: #efeff0;
-    top: -30px;
+    top: -141px;
     left: 1168px;
     width: 0px;
     font-family: letra1;
     font-size: 28px;
 }
 
-#about{
+#about1{
     position: relative;
     color: #efeff0;
-    top: -100px;
+    top: -210px;
     left: 1315px;
     width: 0px;
     font-family: letra1;
     font-size: 28px;
 }
 
-#menu{
+#menu1{
     position: relative;
     color: #efeff0;
-    top: -165px;
+    top: -281px;
     left: 1458px;
     width: 0px;
     font-family: letra1;
     font-size: 28px;
 }
 
-#service{
+#service1{
     position: relative;
     color: #efeff0;
-    top:-234px;
-    left: 1586px;
+    top:-351px;
+    left: 1603px;
     width: 0px;
+    height: 24px;
     font-family: letra1;
     font-size: 28px;
 }
 
-#contact{
+#contact1{
     position: relative;
     color: #efeff0;
-    top:-302px;
+    top:-403px;
     left: 1735px;
     width: 0px;
     font-family: letra1;
     font-size: 28px;
 }
 
-#fullWeb{
+#fullWeb1{
     position: relative;
     color: #fd6f2a;
-    top:-181px;
+    top:-295px;
     left: 397px;
     width: -8px;
     font-family: letra;
@@ -93,15 +94,15 @@
 
 #homeimg{
     position: relative;
-    top:-651px;
+    top:-788px;
     left: 1015px;
     width: 520px;
 }
 
-#foods{
+#foods1{
     position: relative;
     color: #efeff0;
-    top:-247px;
+    top:-343px;
     left: 400px;
     width: 171px;
     font-family: letra1;
@@ -111,7 +112,7 @@
 #foods2{
     position: relative;
     color: #efeff0;
-    top:-256px;
+    top:-381px;
     left: 400px;
     width: 317px;
     font-family: letra1;
@@ -125,7 +126,7 @@
     background-color: #fd6f2a;
     border: 1px solid #ccc;
     padding: 20px;
-    top: -781px;
+    top: -902px;
     left: 400px;
 }
 
@@ -159,8 +160,8 @@
 
 #aboutUs{
     position: relative;
-    color: #fd6f2a;
-    top:-207px;
+    color: #c95c2a;
+    top:-216px;
     left: 1050px;
     width: -8px;
     font-family: letra;
@@ -451,9 +452,39 @@
     font-size: 39px;
 }
 
+#establishedcont{
+    position: relative;
+    top: -84px;
+    width: 4593px;
+    height: 48px;
+    border-radius: 108px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra;
+    color:#fcfcfc;
+    left: -1842px;
+}
+
+#establishcont{
+    position: relative;
+    top: -131px;
+    width: 4593px;
+    height: 48px;
+    border-radius: 108px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra;
+    color:#fcfcfc;
+    left: -1842px;
+}
+
 #s2{
     position: relative;
-    top: -581px;
+    top: -643px;
     left: 823px;
     width: 316px;
 }
@@ -461,7 +492,7 @@
 #shipping{
     position: relative;
     color: #fd6f2a;
-    top: -623px;
+    top: -700px;
     left: 887px;
     width: -8px;
     font-family: letra;
@@ -471,7 +502,7 @@
 #established2{
     position: relative;
     color: #efeff0;
-    top: -649px;
+    top: -733px;
     left: 765px;
     width: 553px;
     font-family: letra;
@@ -480,15 +511,15 @@
 
 #s3{
     position: relative;
-    top: -1165px;
-    left: 1337px;
+    top: -1225px;
+    left: 1343px;
     width: 276px;
 }
 
 #dellvered{
     position: relative;
     color: #fd6f2a;
-    top: -1193px;
+    top: -1264px;
     left: 1390px;
     width: -8px;
     font-family: letra;
@@ -498,7 +529,7 @@
 #established3{
     position: relative;
     color: #efeff0;
-    top: -1219px;
+    top: -1298px;
     left: 1358px;
     width: 553px;
     font-family: letra;
@@ -650,7 +681,7 @@
 .our{
     position: relative;
     color: #efeff0;
-    top: -299px;
+    top: -378px;
     left: 614px;
     width: 402px;
     font-family: letra1;
@@ -719,7 +750,7 @@
 .informacion{
     position: relative;
     color: #efeff0;
-    top: -299px;
+    top: -451px;
     left: 614px;
     width: 402px;
     font-family: letra1;
@@ -736,7 +767,7 @@
     font-size: 32px;
 }
 
-#aboutUs{
+#aboutUs1{
     position: relative;
     color: #efeff0;
     top: -390px;
@@ -779,7 +810,7 @@
 .contact{
     position: relative;
     color: #efeff0;
-    top: -299px;
+    top: -534px;
     left: 614px;
     width: 402px;
     font-family: letra1;
@@ -798,36 +829,65 @@
 
 #circulo1{
     position: relative;
-    color:#ff702a;
-    top: -1917px;
-    left: 1777px;
-    width: 74px;
-    height: 63px;
+    background-color:#ff702a;
+    top: -740px;
+    left: 679px;
+    width: 47px;
+    height: 44px;
     font-family: letra1;
-    font-size: 32px;
     border-radius: 50%;
 }
 
 #circulo2{
     position: relative;
-    color:#ff702a;
-    top: -1917px;
-    left: 1777px;
-    width: 74px;
-    height: 63px;
+    background-color:#ff702a;
+    top: -815px;
+    left: 754px;
+    width: 47px;
+    height: 44px;
     font-family: letra1;
-    font-size: 32px;
     border-radius: 50%;
 }
 
 #circulo3{
     position: relative;
-    color:#ff702a;
-    top: -1917px;
-    left: 1777px;
-    width: 74px;
-    height: 63px;
+    background-color:#ff702a;
+    top: -891px;
+    left: 832px;
+    width: 47px;
+    height: 44px;
     font-family: letra1;
-    font-size: 32px;
     border-radius: 50%;
+}
+
+#linea1{
+    top: 202px;
+    left: 339px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
+
+#linea2{
+    top: 104px;
+    left: 7px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
+
+#linea3{
+    top: -269px;
+    left: 323px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
+
+#linea4{
+    top: -625px;
+    left: 687px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
 }
