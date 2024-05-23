@@ -272,6 +272,7 @@
     left: 399px;
     width: 792px;
     height: 63px;
+    font-size: 35px;
     position: relative;
     border: 1px solid #5d5d5d;
 }
@@ -281,13 +282,14 @@
     left: 399px;
     width: 792px;
     height: 63px;
+    font-size: 35px;
     position: relative;
     border: 1px solid #5d5d5d;
 }
 
 #fechaExpedicion{
-    top: -58px;
-    left: -1px;
+    top: -147px;
+    left: 400px;
     width: 381px;
     height: 21px;
     position: relative;
@@ -317,7 +319,7 @@
 }
 
 .cuadroContinuar{
-    top: 79px;
+    top: -17px;
     left: 637px;
     width: 272px;
     height: 71px;

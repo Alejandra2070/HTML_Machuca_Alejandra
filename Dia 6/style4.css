@@ -263,6 +263,7 @@
     left: 399px;
     width: 792px;
     height: 63px;
+    font-size: 35px;
     position: relative;
     border: 1px solid #5d5d5d;
 
@@ -284,6 +285,7 @@
     left: 399px;
     width: 792px;
     height: 63px;
+    font-size: 35px;
     position: relative;
     border: 1px solid #5d5d5d;
 }
@@ -314,13 +316,14 @@
     left: 399px;
     width: 792px;
     height: 63px;
+    font-size: 35px;
     position: relative;
     border: 1px solid #5d5d5d;
 }
 
 #fechaCita{
-    top: -58px;
-    left: -1px;
+    top: -163px;
+    left: 398px;
     width: 381px;
     height: 21px;
     position: relative;
@@ -349,7 +352,7 @@
     font-size: 20px;
 }
 #notRobot{
-    top: -22px;
+    top: -106px;
     left: 575px;
     width: 401px;
     height: 113px;
@@ -358,7 +361,7 @@
 }
 
 #muisca{
-    top: -36px;
+    top: -127px;
     left: 489px;
     width: 952px;
     height: 11px;
@@ -369,7 +372,7 @@
 }
 
 .cuadroAgendar{
-    top: -25px;
+    top: -117px;
     left: 711px;
     width: 165px;
     height: 42px;
