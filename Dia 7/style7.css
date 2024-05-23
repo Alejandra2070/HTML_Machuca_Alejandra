@@ -1,0 +1,893 @@
+@font-face {
+    font-family: letra;
+    src: url(tipografia/Poppins-Light.ttf);
+    font-family: letra1;
+    src: url(tipografia/Poppins-ExtraLight.ttf);
+}
+
+.contenido {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fondoCompleto1{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+#foods{
+    position: relative;
+    color: #fd6f2a;
+    top:-8px;
+    left: 148px;
+    width: 0px;
+    font-family: letra;
+    font-size: 60px;
+}
+
+#home1{
+    position: relative;
+    color: #efeff0;
+    top: -141px;
+    left: 1168px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#about1{
+    position: relative;
+    color: #efeff0;
+    top: -210px;
+    left: 1315px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#menu1{
+    position: relative;
+    color: #efeff0;
+    top: -281px;
+    left: 1458px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#service1{
+    position: relative;
+    color: #efeff0;
+    top:-351px;
+    left: 1603px;
+    width: 0px;
+    height: 24px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#contact1{
+    position: relative;
+    color: #efeff0;
+    top:-403px;
+    left: 1735px;
+    width: 0px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#fullWeb1{
+    position: relative;
+    color: #fd6f2a;
+    top:-295px;
+    left: 397px;
+    width: -8px;
+    font-family: letra;
+    font-size: 94px;
+}
+
+#homeimg{
+    position: relative;
+    top:-788px;
+    left: 1015px;
+    width: 520px;
+}
+
+#foods1{
+    position: relative;
+    color: #efeff0;
+    top:-343px;
+    left: 400px;
+    width: 171px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#foods2{
+    position: relative;
+    color: #efeff0;
+    top:-381px;
+    left: 400px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+.cuadro {
+    position: relative;
+    width: 217px;
+    height: 24px;
+    background-color: #fd6f2a;
+    border: 1px solid #ccc;
+    padding: 20px;
+    top: -902px;
+    left: 400px;
+}
+
+#textoCuadro{
+    position: relative;
+    color: #efeff0;
+    top: -48px;
+    left: 5px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+.fondoCompleto2{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+#imgabout{
+    position: relative;
+    top: 200px;
+    left: 480px;
+    width: 474px;
+}
+
+#aboutUs{
+    position: relative;
+    color: #c95c2a;
+    top:-216px;
+    left: 1050px;
+    width: -8px;
+    font-family: letra;
+    font-size: 26px;
+}
+
+#weSpeak{
+    position: relative;
+    color: #efeff0;
+    top: -234px;
+    left: 1050px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+
+#foodLanguage{
+    position: relative;
+    color: #efeff0;
+    top: -272px;
+    left: 1050px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+
+#itIs{
+    position: relative;
+    color: #efeff0;
+    top: -290px;
+    left: 1050px;
+    width: 359px;
+    font-family: letra1;
+    font-size: 20px;
+}
+
+.cuadro2 {
+    position: relative;
+    width: 177px;
+    height: 25px;
+    background-color: #fd6f2a;
+    border: 1px solid #ccc;
+    padding: 5px;
+    top: -288px;
+    left: 1050px;
+}
+
+#textoCuadro2{
+    position: relative;
+    color: #efeff0;
+    top: -24px;
+    left: 31px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 20px;
+}
+
+.fondoCompleto3{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+#foodMenu{
+    position: relative;
+    color: #fd6f2a;
+    top:91px;
+    left: 924px;
+    width: -8px;
+    font-family: letra;
+    font-size: 32px;
+}
+
+#freshTaste{
+    position: relative;
+    color: #efeff0;
+    top: 36px;
+    left: 647px;
+    width: 694px;
+    font-family: letra1;
+    font-size: 54px;
+}
+
+#food1{
+    position: relative;
+    top: 9px;
+    left: 71px;
+    width: 294px;
+}
+
+.burgerChickenCuadro{
+    position: relative;
+    width: 434px;
+    height: 434px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: 38px;
+    left: 250px;
+}
+
+#chickenBurger{
+    position: relative;
+    color: black;
+    top: -24px;
+    left: 93px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 34px;
+}
+
+#tastyFood{
+    position: relative;
+    color: black;
+    top: -58px;
+    left: 138px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 26px;
+}
+
+#number{
+    position: relative;
+    color: #fd6f2a;
+    top:-87px;
+    left: 173px;
+    width: -8px;
+    font-family: letra;
+    font-size: 26px;
+}
+
+#food2{
+    position: relative;
+    top: -14px;
+    left: 50px;
+    width: 318px;
+}
+
+.beefBurgerCuadro{
+    position: relative;
+    width: 434px;
+    height: 434px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: -408px;
+    left: 765px;
+}
+
+#specialBeef{
+    position: relative;
+    color: black;
+    top: -62px;
+    left: 62px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+#tastyFood2{
+    position: relative;
+    color: black;
+    top: -92px;
+    left: 138px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 27px;
+}
+
+#number2{
+    position: relative;
+    color: #fd6f2a;
+    top:-117px;
+    left: 173px;
+    width: -8px;
+    font-family: letra;
+    font-size: 27px;
+}
+
+#food3{
+    position: relative;
+    top: 4px;
+    left: 78px;
+    width: 272px;
+}
+
+.chickenFryCuadro{
+    position: relative;
+    width: 434px;
+    height: 434px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: -854px;
+    left: 1279px;
+}
+
+#chickenFry{
+    position: relative;
+    color: black;
+    top: -19px;
+    left: 62px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 33px;
+}
+
+#tastyFood3{
+    position: relative;
+    color: black;
+    top: -54px;
+    left: 138px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 27px;
+}
+
+#number3{
+    position: relative;
+    color: #fd6f2a;
+    top:-79px;
+    left: 173px;
+    width: -8px;
+    font-family: letra;
+    font-size: 27px;
+}
+
+.fondoCompleto4{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+
+#services{
+    position: relative;
+    color: #fd6f2a;
+    top: 36px;
+    left: 930px;
+    width: -8px;
+    font-family: letra;
+    font-size: 32px;
+}
+
+#weProvide{
+    position: relative;
+    color: #efeff0;
+    top: 33px;
+    left: 586px;
+    width: 845px;
+    font-family: letra1;
+    font-size: 57px;
+}
+
+#s1{
+    position: relative;
+    top: 42px;
+    left: 328px;
+    width: 312px;
+}
+
+#order{
+    position: relative;
+    color: #fd6f2a;
+    top: -13px;
+    left: 432px;
+    width: -8px;
+    font-family: letra;
+    font-size: 36px;
+}
+
+#established{
+    position: relative;
+    color: #efeff0;
+    top: -39px;
+    left: 266px;
+    width: 553px;
+    font-family: letra;
+    font-size: 39px;
+}
+
+#establishedcont{
+    position: relative;
+    top: -84px;
+    width: 4593px;
+    height: 48px;
+    border-radius: 108px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra;
+    color:#fcfcfc;
+    left: -1842px;
+}
+
+#establishcont{
+    position: relative;
+    top: -131px;
+    width: 4593px;
+    height: 48px;
+    border-radius: 108px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra;
+    color:#fcfcfc;
+    left: -1842px;
+}
+
+#s2{
+    position: relative;
+    top: -643px;
+    left: 823px;
+    width: 316px;
+}
+
+#shipping{
+    position: relative;
+    color: #fd6f2a;
+    top: -700px;
+    left: 887px;
+    width: -8px;
+    font-family: letra;
+    font-size: 36px;
+}
+
+#established2{
+    position: relative;
+    color: #efeff0;
+    top: -733px;
+    left: 765px;
+    width: 553px;
+    font-family: letra;
+    font-size: 39px;
+}
+
+#s3{
+    position: relative;
+    top: -1225px;
+    left: 1343px;
+    width: 276px;
+}
+
+#dellvered{
+    position: relative;
+    color: #fd6f2a;
+    top: -1264px;
+    left: 1390px;
+    width: -8px;
+    font-family: letra;
+    font-size: 36px;
+}
+
+#established3{
+    position: relative;
+    color: #efeff0;
+    top: -1298px;
+    left: 1358px;
+    width: 553px;
+    font-family: letra;
+    font-size: 39px;
+}
+
+.fondoCompleto5{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 830px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+.cuadroPart5{
+    position: relative;
+    width: 1608px;
+    height: 564px;
+    background-color: #ffefe8;
+    border: 1px solid #999092;
+    padding: 5px;
+    top: 124px;
+    left: 148px;
+}
+
+#makeQuality{
+    position: relative;
+    color: black;
+    top: 105px;
+    left: 465px;
+    width: 759px;
+    font-family: letra1;
+    font-size: 70px;
+    text-align: center;
+}
+
+.cuadrito{
+    position: relative;
+    width: 172px;
+    height: 31px;
+    background-color: #fd6f2a;
+    border: 1px solid #ccc;
+    padding: 5px;
+    top: 35px;
+    left: 752px;
+}
+
+#learnMore{
+    position: relative;
+    color: #efeff0;
+    top: -24px;
+    left: 31px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+.fondoCompleto6{
+    background-color: #1e1d2b;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 636px;
+    border-style: solid;
+    border-color: #cb5d2a;
+}
+
+.menu{
+    position: relative;
+    color: #efeff0;
+    top: -24px;
+    left: 31px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#menuLinks{
+    position: relative;
+    color: white;
+    top: 97px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 34px;
+}
+
+#home{
+    position: relative;
+    color: #efeff0;
+    top: 87px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#about{
+    position: relative;
+    color: #efeff0;
+    top: 81px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#menu{
+    position: relative;
+    color: #efeff0;
+    top: 76px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#service{
+    position: relative;
+    color: #efeff0;
+    top: 72px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#contacts{
+    position: relative;
+    color: #efeff0;
+    top: 66px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#barra{
+    position: relative;
+    top: -200px;
+    left: 724px;
+    background-color: #fd6f2a;
+}
+
+.our{
+    position: relative;
+    color: #efeff0;
+    top: -378px;
+    left: 614px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#ourService{
+    position: relative;
+    color: #efeff0;
+    top: 66px;
+    left: 339px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+#webDesign{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#webDevelopment{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#marketing{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#productManagement{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+#graphicDesign{
+    position: relative;
+    color: #efeff0;
+    top: -5px;
+    left: 2px;
+    width: 317px;
+    font-family: letra1;
+    font-size: 22px;
+}
+
+.informacion{
+    position: relative;
+    color: #efeff0;
+    top: -451px;
+    left: 614px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#information{
+    position: relative;
+    color: #efeff0;
+    top: -372px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#aboutUs1{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#delivery{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#privacy{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+#terms{
+    position: relative;
+    color: #efeff0;
+    top: -390px;
+    left: 321px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 28px;
+}
+
+.contact{
+    position: relative;
+    color: #efeff0;
+    top: -534px;
+    left: 614px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#contactUs{
+    position: relative;
+    color: #efeff0;
+    top: -729px;
+    left: 684px;
+    width: 402px;
+    font-family: letra1;
+    font-size: 32px;
+}
+
+#circulo1{
+    position: relative;
+    background-color:#ff702a;
+    top: -740px;
+    left: 679px;
+    width: 47px;
+    height: 44px;
+    font-family: letra1;
+    border-radius: 50%;
+}
+
+#circulo2{
+    position: relative;
+    background-color:#ff702a;
+    top: -815px;
+    left: 754px;
+    width: 47px;
+    height: 44px;
+    font-family: letra1;
+    border-radius: 50%;
+}
+
+#circulo3{
+    position: relative;
+    background-color:#ff702a;
+    top: -891px;
+    left: 832px;
+    width: 47px;
+    height: 44px;
+    font-family: letra1;
+    border-radius: 50%;
+}
+
+#linea1{
+    top: 202px;
+    left: 339px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
+
+#linea2{
+    top: 104px;
+    left: 7px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
+
+#linea3{
+    top: -269px;
+    left: 323px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
+
+#linea4{
+    top: -625px;
+    left: 687px;
+    position: relative;
+    color: #ff702a;
+    font-size: 34px;
+}
