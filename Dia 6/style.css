@@ -265,7 +265,7 @@
     height: 63px;
     position: relative;
     border: 1px solid #5d5d5d;
-
+    font-size: 40px;
 }
 
 #fechaExpedicion{
@@ -280,10 +280,11 @@
 }
 
 .cuadroExpedicion{
-    top: -85px;
+    top: -137px;
     left: 399px;
     width: 792px;
     height: 63px;
+    font-size: 35px;
     position: relative;
     border: 1px solid #5d5d5d;
 }
@@ -309,16 +310,16 @@
 }
 
 #notRobot{
-    top: -60px;
-    left: 575px;
-    width: 401px;
-    height: 113px;
+    top: -14px;
+    left: -180px;
+    width: 389px;
+    height: 98px;
     opacity: 1;
     position: relative;
 }
 
 #muisca{
-    top: -74px;
+    top: -48px;
     left: 489px;
     width: 952px;
     height: 11px;
@@ -329,7 +330,7 @@
 }
 
 .cuadroConsultar{
-    top: -73px;
+    top: -50px;
     left: 723px;
     width: 165px;
     height: 42px;
