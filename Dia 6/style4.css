@@ -12,9 +12,9 @@
 
 #imgFondo{
     top: 0px;
-    left: -288.7714538574219px;
+    left: -288px;
     width: 1920px;
-    height: 1637px;
+    height: 1254px;
     background: transparent url('imagenes/pexels-clive-kim-4150032.png') 0% 0% no-repeat padding-box;
     opacity: 0.5;
 }
@@ -25,7 +25,7 @@
     height: 174px;
     background-color: #3669c9;
     border: 1px solid #91a9d7;
-    top: -1640px;
+    top: -1257px;
     box-sizing: border-box;
     z-index: 1;
 }
@@ -87,7 +87,7 @@
     height: 174px;
     background-color: #3669c9;
     border: 1px solid #91a9d7;
-    top: -350px;
+    top: -351px;
     box-sizing: border-box;
     z-index: 1;
 }
@@ -195,11 +195,11 @@
 }
 
 .cuadroBlanco{
-    width: 1598px;
-    height: 1221px;
+    width: 1545px;
+    height: 870px;
     background-color: white;
     border: 1px solid #91a9d7;
-    top: -1781px;
+    top: -1413px;
     border-radius: 4%;
     margin: auto;
     position: relative;
@@ -217,7 +217,7 @@
 
 #bienvenido{
     top: 62px;
-    left: 504px;
+    left: 519px;
     width: 666px;
     height: 64px;
     font-family: letra;
@@ -228,8 +228,8 @@
 
 #bienvenido2{
     top: 12px;
-    left: 538px;
-    width: 666px;
+    left: 449px;
+    width: 735px;
     height: 64px;
     font-family: letra;
     position: relative;
@@ -269,7 +269,7 @@
 }
 
 #fechaExpedicion{
-    top: -72px;
+    top: -78px;
     left: 398px;
     width: 381px;
     height: 21px;
@@ -280,7 +280,7 @@
 }
 
 .cuadroExpedicion{
-    top: -85px;
+    top: -92px;
     left: 399px;
     width: 792px;
     height: 63px;
@@ -308,8 +308,48 @@
     font-size: 30px;
 }
 
+
+.cuadroFechaCita{
+    top: -42px;
+    left: 399px;
+    width: 792px;
+    height: 63px;
+    position: relative;
+    border: 1px solid #5d5d5d;
+}
+
+#fechaCita{
+    top: -58px;
+    left: -1px;
+    width: 381px;
+    height: 21px;
+    position: relative;
+    font-family: letra;
+    font-size: 24px;
+    color: #5d5d5d;
+}
+
+#calendarCita{
+    top: -138px;
+    left: 10px;
+    width: 792px;
+    height: 63px;
+    position: relative;
+    color: #b8b8b8;
+    font-size: 30px;
+}
+
+#imgCalendar2{
+    top: -64px;
+    left: 711px;
+    width: 52px;
+    height: 53px;
+    opacity: 1;
+    position: relative;
+    font-size: 20px;
+}
 #notRobot{
-    top: -60px;
+    top: -22px;
     left: 575px;
     width: 401px;
     height: 113px;
@@ -318,7 +358,7 @@
 }
 
 #muisca{
-    top: -74px;
+    top: -36px;
     left: 489px;
     width: 952px;
     height: 11px;
@@ -328,9 +368,9 @@
     color: #9d9d9d;
 }
 
-.cuadroConsultar{
-    top: -73px;
-    left: 723px;
+.cuadroAgendar{
+    top: -25px;
+    left: 711px;
     width: 165px;
     height: 42px;
     position: relative;
@@ -338,9 +378,9 @@
     border-radius: 18px;
 }
 
-#consultar{
-    top: 13px;
-    left: 52px;
+#agendar{
+    top: 10px;
+    left: 44px;
     width: 165px;
     height: 42px;
     position: relative;
@@ -349,183 +389,5 @@
     text-decoration: none;
 }
 
-#nuevoUsuario{
-    top: -72px;
-    left: 259px;
-    width: 1121px;
-    height: 35px;
-    font-family: letra;
-    position: relative;
-    color: black;
-    font-size: 38px;
-}
 
-#imgDocument{
-    top: -67px;
-    left: 507px;
-    width: 63px;
-    height: 84px;
-    opacity: 1;
-    position: relative;
-}
-
-#imgFirma{
-    top: -67px;
-    left: 973px;
-    width: 102px;
-    height: 84px;
-    opacity: 1;
-    position: relative;
-}
-
-#tramitar{
-    top: -112px;
-    left: 404px;
-    width: 276px;
-    height: 35px;
-    font-family: letra;
-    position: relative;
-    color: black;
-    font-size: 46px;
-}
-
-#tramitarFirma{
-    top: -193px;
-    left: 870px;
-    width: 515px;
-    height: 35px;
-    font-family: letra;
-    position: relative;
-    color: black;
-    font-size: 46px;
-}
-
-#rut{
-    top: -208px;
-    left: 273px;
-    width: 584px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-#rut2{
-    top: -282px;
-    left: 297px;
-    width: 540px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-#rut3{
-    top: -355px;
-    left: 251px;
-    width: 633px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-#rut4{
-    top: -431px;
-    left: 487px;
-    width: 448px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-#textFirma{
-    top: -639px;
-    left: 947px;
-    width: 361px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-#text2{
-    top: -715px;
-    left: 948px;
-    width: 366px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-#text3{
-    top: -787px;
-    left: 957px;
-    width: 352px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-#text4{
-    top: -863px;
-    left: 1088px;
-    width: 272px;
-    height: 86px;
-    font-family: letra1;
-    position: relative;
-    font-size: 22px;
-    color: #6b6b6b;
-}
-
-.tramitarCuadro1{
-    top: -922px;
-    left: 441px;
-    width: 213px;
-    height: 50px;
-    position: relative;
-    background-color: #157ffb;
-    border-radius: 18px;
-}
-
-#tramitarText{
-    top: 14px;
-    left: 83px;
-    width: 165px;
-    height: 42px;
-    position: relative;
-    color: white;
-    font-family: letra;
-    text-decoration: none;
-}
-
-.tramitarCuadro2{
-    top: -971px;
-    left: 1019px;
-    width: 213px;
-    height: 50px;
-    position: relative;
-    background-color: #157ffb;
-    border-radius: 18px;
-}
-
-#tramitarText2{
-    top: 14px;
-    left: 77px;
-    width: 165px;
-    height: 42px;
-    position: relative;
-    color: white;
-    font-family: letra;
-    text-decoration: none;
-}
 

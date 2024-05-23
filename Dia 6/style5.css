@@ -1,0 +1,288 @@
+@font-face {
+    font-family: letra;
+    src: url(tipografia/Myriad\ Pro\ Regular.ttf);
+    font-family: letra1;
+    src: url(tipografia/Myriad\ Pro\ Light.otf);
+}
+
+.contenido {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+#imgFondo{
+    top: -1427px;
+    left: -288px;
+    width: 1920px;
+    height: 1294px;
+    background: transparent url('imagenes/pexels-clive-kim-4150032.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+
+.cuadroAzul{
+    position: relative;
+    width: 1920px;
+    height: 174px;
+    background-color: #3669c9;
+    border: 1px solid #91a9d7;
+    top: -1296px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#inicio{
+    position: relative;
+    color: white;
+    top: 54px;
+    left: 270px;
+    font-size: 44px;
+    text-decoration: none;
+}
+
+#tramites{
+    position: relative;
+    color: white;
+    top: -43px;
+    left: 494px;
+    font-size: 44px;
+}
+
+#imgGobierno{
+    position: relative;
+    color: black;
+    top:-145px;
+    left: 785px;
+}
+
+#contacto{
+    position: relative;
+    color: white;
+    top: -252px;
+    left: 1302px;
+    font-size: 44px;
+}
+
+#cuadroConsult{
+    top: -356px;
+    left: 1628px;
+    width: 200px;
+    height: 58px;
+    position: relative;
+    background-color: white;
+    border-radius: 26px;
+}
+
+#consultar1{
+    position: relative;
+    color: black;
+    top: -419px;
+    left: 1662px;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.cuadroAzul2{
+    position: relative;
+    width: 1920px;
+    height: 174px;
+    background-color: #3669c9;
+    border: 1px solid #91a9d7;
+    top: -350px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#imgLocation{
+    top: 8px;
+    left: 439px;
+    width: 31px;
+    height: 41px;
+    opacity: 1;
+    position: relative;
+    font-size: 20px;
+}
+
+#texto1{
+    position: relative;
+    color: white;
+    top: -16px;
+    left: 364px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#texto2{
+    position: relative;
+    color: white;
+    top: -37px;
+    left: 151px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#texto3{
+    position: relative;
+    color: white;
+    top: -59px;
+    left: 346px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#texto4{
+    position: relative;
+    color: white;
+    top: -83px;
+    left: 252px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#imgFooter{
+    top: -221px;
+    left: 822px;
+    width: 313px;
+    height: 60px;
+    opacity: 1;
+    position: relative;
+    font-size: 20px;
+}
+
+#imgPhone{
+    top: -280px;
+    left: 1223px;
+    width: 31px;
+    height: 41px;
+    opacity: 1;
+    position: relative;
+    font-size: 20px;
+}
+
+#textos1{
+    position: relative;
+    color: white;
+    top: -302px;
+    left: 1410px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#textos2{
+    position: relative;
+    color: white;
+    top: -324px;
+    left: 1346px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#textos3{
+    position: relative;
+    color: white;
+    top: -347px;
+    left: 1464px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#textos4{
+    position: relative;
+    color: white;
+    top: -369px;
+    left: 1469px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.cuadroBlanco{
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border: 1px solid #91a9d7;
+    top: -1436px;
+    border-radius: 4%;
+    margin: auto;
+    position: relative;
+}
+
+#imgDian{
+    top: -121px;
+    left: 622px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+    position: relative;
+    font-size: 20px;
+}
+
+#imgFlecha{
+    top: 172px;
+    left: 355px;
+    width: 230px;
+    height: 230px;
+    opacity: 1;
+    position: relative;
+    font-size: 20px;
+}
+
+#solicitudComplet{
+    top: 152px;
+    left: 604px;
+    width: 397px;
+    height: 42px;
+    position: relative;
+    color: black;
+    font-family: letra;
+    font-size: 44px;
+}
+
+#felicitaciones{
+    top: 144px;
+    left: 145px;
+    width: 1246px;
+    height: 42px;
+    position: relative;
+    color: black;
+    font-family: letra;
+    font-size: 44px;
+}
+
+#felicitaciones2{
+    top:112px;
+    left: 481px;
+    width: 625px;
+    height: 42px;
+    position: relative;
+    color: black;
+    font-family: letra;
+    font-size: 44px;
+}
+
+#logoAmarillo{
+    top: 86px;
+    left: 644px;
+    width: 314px;
+    height: 100px;
+    opacity: 1;
+    position: relative;
+}
+
+.cuadroVolver{
+    top: 92px;
+    left: 658px;
+    width: 304px;
+    height: 70px;
+    position: relative;
+    background-color: #157ffb;
+    border-radius: 18px;
+}
+
+#volverMenu{
+    top: 22px;
+    left: 19px;
+    position: relative;
+    color: white;
+    font-family: letra;
+    font-size: 26px;
+    text-decoration: none;
+}
