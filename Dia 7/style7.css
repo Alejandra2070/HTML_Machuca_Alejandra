@@ -9,29 +9,63 @@
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
+    max-width: 1920px;
 }
 
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+#cuadro1{
+    margin-left: 5vw;
+}
+#cuadro2{
+    display: flex;
+    margin-right: 3vw;
+}
+#cuadro2 p{
+    margin: 0vw 1vw;
+}
+
+#cuadros{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    width: 100%;
+}
+
+#parte2{
+
+    border: red 1px solid;
+    margin: 0px;
+}
+
+#parte2_1{
+    border: red 1px solid;
+    margin: 0px;
+    margin-right: 20vw;
+}
 .fondoCompleto1{
     background-color: #1e1d2b;
-    position: relative;
-    left: 0.10vw;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     border-style: solid;
     border-color: #cb5d2a;
+    text-align: center;
 }
 
 #foods{
-    position: relative;
     color: #fd6f2a;
-    top:0.96vh;
-    left: 7.70vw;
     font-family: letra;
     font-size: 3.125vw;
+    margin: 0vw;
+    
 }
 
 #home1{
-    position: relative;
     color: #efeff0;
     top:-1.9vh;
     left: 60.83vw;
@@ -40,7 +74,6 @@
 }
 
 #about1{
-    position: relative;
     color: #efeff0;
     top: -4.2vh;
     left: 68.48vw;
@@ -49,7 +82,6 @@
 }
 
 #menu1{
-    position: relative;
     color: #efeff0;
     top: -6.6vh;
     left: 75.93vw;
@@ -58,7 +90,6 @@
 }
 
 #service1{
-    position: relative;
     color: #efeff0;
     top:-9vh;
     left: 83.48vw;
@@ -67,7 +98,6 @@
 }
 
 #contact1{
-    position: relative;
     color: #efeff0;
     top:-11.5vh;
     left: 90.48vw;
@@ -76,44 +106,40 @@
 }
 
 #fullWeb1{
-    position: relative;
+        border: red 1px solid;
     color: #fd6f2a;
-    top:-9vh;
+    top:-20vh;
     left:20.67vw;
+    width: 50.67vw;
     font-family: letra;
     font-size: 4.89vw;
 }
 
 #homeimg{
-    position: relative;
-    top:-25.07vh;
-    left: 52.86vw;
-    width: 27.08vw;
-    font-size: 1.04vw;
+    width: 20vw;
 }
 
 #foods1{
-    position: relative;
     color: #efeff0;
+        border: red 1px solid;
     top:-12vh;
     left: 20.83vw;
     width: -7.8vw;
     font-family: letra1;
-    font-size: 2vw;
+    font-size: 1.66vw;
 }
 
 #foods2{
-    position: relative;
+        border: red 1px solid;
     color: #efeff0;
     top:-381px;
     left: 377px;
     width: 317px;
     font-family: letra1;
-    font-size: 32px;
+    font-size: 1.66vw;
 }
 
 .cuadro {
-    position: relative;
     width: 217px;
     height: 24px;
     background-color: #fd6f2a;
@@ -124,18 +150,17 @@
 }
 
 #textoCuadro{
-    position: relative;
+        border: red 1px solid;
     color: #efeff0;
     top: -48px;
     left: 5px;
     width: 317px;
     font-family: letra1;
-    font-size: 32px;
+    font-size: 1.66vw;
 }
 
 .fondoCompleto2{
     background-color: #1e1d2b;
-    position: relative;
     left: 0.10vw;
     width: 100vw;
     height: 100vh;
@@ -144,14 +169,12 @@
 }
 
 #imgabout{
-    position: relative;
     top: 10.14vh;
     left: 9.89vw;
     width: 24.68vw;
 }
 
 #aboutUs{
-    position: relative;
     color: #c95c2a;
     top:-9.02vh;
     left: 40.68vw;
@@ -161,7 +184,6 @@
 }
 
 #weSpeak{
-    position: relative;
     color: #efeff0;
     top: -9.19vh;
     left: 40.67vw;
@@ -171,7 +193,6 @@
 }
 
 #foodLanguage{
-    position: relative;
     color: #efeff0;
     top: -12vh;
     left: 40.68vw;
@@ -181,7 +202,6 @@
 }
 
 #itIs{
-    position: relative;
     color: #efeff0;
     top: -13.17vh;
     left: 40.69vw;
@@ -191,7 +211,6 @@
 }
 
 .cuadro2 {
-    position: relative;
     width: 9.21vw;
     height: 1.30vw;
     background-color: #fd6f2a;
@@ -202,7 +221,6 @@
 }
 
 #textoCuadro2{
-    position: relative;
     color: #efeff0;
     top: -24px;
     left: 31px;
@@ -213,7 +231,6 @@
 
 .fondoCompleto3{
     background-color: #1e1d2b;
-    position: relative;
     top: 0px;
     left: 2px;
     width: 1920px;
@@ -223,7 +240,6 @@
 }
 
 #foodMenu{
-    position: relative;
     color: #fd6f2a;
     top:91px;
     left: 924px;
@@ -233,7 +249,6 @@
 }
 
 #freshTaste{
-    position: relative;
     color: #efeff0;
     top: 36px;
     left: 647px;
@@ -243,14 +258,12 @@
 }
 
 #food1{
-    position: relative;
     top: 9px;
     left: 71px;
     width: 294px;
 }
 
 .burgerChickenCuadro{
-    position: relative;
     width: 434px;
     height: 434px;
     background-color: #ffefe8;
@@ -261,7 +274,6 @@
 }
 
 #chickenBurger{
-    position: relative;
     color: black;
     top: -24px;
     left: 93px;
@@ -271,7 +283,6 @@
 }
 
 #tastyFood{
-    position: relative;
     color: black;
     top: -58px;
     left: 138px;
@@ -281,7 +292,6 @@
 }
 
 #number{
-    position: relative;
     color: #fd6f2a;
     top:-87px;
     left: 173px;
@@ -291,14 +301,12 @@
 }
 
 #food2{
-    position: relative;
     top: -14px;
     left: 50px;
     width: 318px;
 }
 
 .beefBurgerCuadro{
-    position: relative;
     width: 434px;
     height: 434px;
     background-color: #ffefe8;
@@ -309,7 +317,6 @@
 }
 
 #specialBeef{
-    position: relative;
     color: black;
     top: -62px;
     left: 62px;
@@ -318,7 +325,6 @@
     font-size: 33px;
 }
 #tastyFood2{
-    position: relative;
     color: black;
     top: -92px;
     left: 138px;
@@ -328,7 +334,6 @@
 }
 
 #number2{
-    position: relative;
     color: #fd6f2a;
     top:-117px;
     left: 173px;
@@ -338,14 +343,12 @@
 }
 
 #food3{
-    position: relative;
     top: 4px;
     left: 78px;
     width: 272px;
 }
 
 .chickenFryCuadro{
-    position: relative;
     width: 434px;
     height: 434px;
     background-color: #ffefe8;
@@ -356,7 +359,6 @@
 }
 
 #chickenFry{
-    position: relative;
     color: black;
     top: -19px;
     left: 62px;
@@ -366,7 +368,6 @@
 }
 
 #tastyFood3{
-    position: relative;
     color: black;
     top: -54px;
     left: 138px;
@@ -376,7 +377,6 @@
 }
 
 #number3{
-    position: relative;
     color: #fd6f2a;
     top:-79px;
     left: 173px;
@@ -387,7 +387,6 @@
 
 .fondoCompleto4{
     background-color: #1e1d2b;
-    position: relative;
     top: 0px;
     left: 2px;
     width: 1920px;
@@ -398,7 +397,6 @@
 
 
 #services{
-    position: relative;
     color: #fd6f2a;
     top: 36px;
     left: 930px;
@@ -408,7 +406,6 @@
 }
 
 #weProvide{
-    position: relative;
     color: #efeff0;
     top: 33px;
     left: 586px;
@@ -418,14 +415,12 @@
 }
 
 #s1{
-    position: relative;
     top: 42px;
     left: 328px;
     width: 312px;
 }
 
 #order{
-    position: relative;
     color: #fd6f2a;
     top: -13px;
     left: 432px;
@@ -435,7 +430,6 @@
 }
 
 #established{
-    position: relative;
     color: #efeff0;
     top: -39px;
     left: 266px;
@@ -445,7 +439,6 @@
 }
 
 #establishedcont{
-    position: relative;
     top: -84px;
     width: 4593px;
     height: 48px;
@@ -460,7 +453,6 @@
 }
 
 #establishcont{
-    position: relative;
     top: -131px;
     width: 4593px;
     height: 48px;
@@ -475,14 +467,12 @@
 }
 
 #s2{
-    position: relative;
     top: -643px;
     left: 823px;
     width: 316px;
 }
 
 #shipping{
-    position: relative;
     color: #fd6f2a;
     top: -700px;
     left: 887px;
@@ -492,7 +482,6 @@
 }
 
 #established2{
-    position: relative;
     color: #efeff0;
     top: -733px;
     left: 765px;
@@ -502,14 +491,12 @@
 }
 
 #s3{
-    position: relative;
     top: -1225px;
     left: 1343px;
     width: 276px;
 }
 
 #dellvered{
-    position: relative;
     color: #fd6f2a;
     top: -1264px;
     left: 1390px;
@@ -519,7 +506,6 @@
 }
 
 #established3{
-    position: relative;
     color: #efeff0;
     top: -1298px;
     left: 1358px;
@@ -530,7 +516,6 @@
 
 .fondoCompleto5{
     background-color: #1e1d2b;
-    position: relative;
     top: 0px;
     left: 2px;
     width: 1920px;
@@ -540,7 +525,6 @@
 }
 
 .cuadroPart5{
-    position: relative;
     width: 1608px;
     height: 564px;
     background-color: #ffefe8;
@@ -551,7 +535,6 @@
 }
 
 #makeQuality{
-    position: relative;
     color: black;
     top: 105px;
     left: 465px;
@@ -562,7 +545,6 @@
 }
 
 .cuadrito{
-    position: relative;
     width: 172px;
     height: 31px;
     background-color: #fd6f2a;
@@ -573,7 +555,6 @@
 }
 
 #learnMore{
-    position: relative;
     color: #efeff0;
     top: -24px;
     left: 31px;
@@ -584,7 +565,6 @@
 
 .fondoCompleto6{
     background-color: #1e1d2b;
-    position: relative;
     top: 0px;
     left: 2px;
     width: 1920px;
@@ -594,7 +574,6 @@
 }
 
 .menu{
-    position: relative;
     color: #efeff0;
     top: -24px;
     left: 31px;
@@ -604,7 +583,6 @@
 }
 
 #menuLinks{
-    position: relative;
     color: white;
     top: 97px;
     left: 339px;
@@ -614,7 +592,6 @@
 }
 
 #home{
-    position: relative;
     color: #efeff0;
     top: 87px;
     left: 339px;
@@ -624,7 +601,6 @@
 }
 
 #about{
-    position: relative;
     color: #efeff0;
     top: 81px;
     left: 339px;
@@ -634,7 +610,6 @@
 }
 
 #menu{
-    position: relative;
     color: #efeff0;
     top: 76px;
     left: 339px;
@@ -644,7 +619,6 @@
 }
 
 #service{
-    position: relative;
     color: #efeff0;
     top: 72px;
     left: 339px;
@@ -654,7 +628,6 @@
 }
 
 #contacts{
-    position: relative;
     color: #efeff0;
     top: 66px;
     left: 339px;
@@ -664,14 +637,12 @@
 }
 
 #barra{
-    position: relative;
     top: -200px;
     left: 724px;
     background-color: #fd6f2a;
 }
 
 .our{
-    position: relative;
     color: #efeff0;
     top: -378px;
     left: 614px;
@@ -681,7 +652,6 @@
 }
 
 #ourService{
-    position: relative;
     color: #efeff0;
     top: 66px;
     left: 339px;
@@ -690,7 +660,6 @@
     font-size: 22px;
 }
 #webDesign{
-    position: relative;
     color: #efeff0;
     top: -5px;
     left: 2px;
@@ -700,7 +669,6 @@
 }
 
 #webDevelopment{
-    position: relative;
     color: #efeff0;
     top: -5px;
     left: 2px;
@@ -710,7 +678,6 @@
 }
 
 #marketing{
-    position: relative;
     color: #efeff0;
     top: -5px;
     left: 2px;
@@ -720,7 +687,6 @@
 }
 
 #productManagement{
-    position: relative;
     color: #efeff0;
     top: -5px;
     left: 2px;
@@ -730,7 +696,6 @@
 }
 
 #graphicDesign{
-    position: relative;
     color: #efeff0;
     top: -5px;
     left: 2px;
@@ -740,7 +705,6 @@
 }
 
 .informacion{
-    position: relative;
     color: #efeff0;
     top: -451px;
     left: 614px;
@@ -750,7 +714,6 @@
 }
 
 #information{
-    position: relative;
     color: #efeff0;
     top: -372px;
     left: 321px;
@@ -760,7 +723,6 @@
 }
 
 #aboutUs1{
-    position: relative;
     color: #efeff0;
     top: -390px;
     left: 321px;
@@ -770,7 +732,6 @@
 }
 
 #delivery{
-    position: relative;
     color: #efeff0;
     top: -390px;
     left: 321px;
@@ -780,7 +741,6 @@
 }
 
 #privacy{
-    position: relative;
     color: #efeff0;
     top: -390px;
     left: 321px;
@@ -790,7 +750,6 @@
 }
 
 #terms{
-    position: relative;
     color: #efeff0;
     top: -390px;
     left: 321px;
@@ -800,7 +759,6 @@
 }
 
 .contact{
-    position: relative;
     color: #efeff0;
     top: -534px;
     left: 614px;
@@ -810,7 +768,6 @@
 }
 
 #contactUs{
-    position: relative;
     color: #efeff0;
     top: -729px;
     left: 684px;
@@ -820,7 +777,6 @@
 }
 
 #circulo1{
-    position: relative;
     background-color:#ff702a;
     top: -740px;
     left: 679px;
@@ -831,7 +787,6 @@
 }
 
 #circulo2{
-    position: relative;
     background-color:#ff702a;
     top: -815px;
     left: 754px;
@@ -842,7 +797,6 @@
 }
 
 #circulo3{
-    position: relative;
     background-color:#ff702a;
     top: -891px;
     left: 832px;
@@ -855,7 +809,6 @@
 #linea1{
     top: 202px;
     left: 339px;
-    position: relative;
     color: #ff702a;
     font-size: 34px;
 }
@@ -863,7 +816,6 @@
 #linea2{
     top: 104px;
     left: 7px;
-    position: relative;
     color: #ff702a;
     font-size: 34px;
 }
@@ -871,7 +823,6 @@
 #linea3{
     top: -269px;
     left: 323px;
-    position: relative;
     color: #ff702a;
     font-size: 34px;
 }
@@ -879,7 +830,6 @@
 #linea4{
     top: -625px;
     left: 687px;
-    position: relative;
     color: #ff702a;
     font-size: 34px;
 }
