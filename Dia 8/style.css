@@ -1,0 +1,27 @@
+.contenedor{
+    width: 100vw;
+    height: 100vw;
+    background-color: white;
+}
+
+#dinosaurio{
+    width: 500px;
+    height: 500px;
+}
+
+#weDeeply{
+    width: 500px;
+    height: 500px;
+}
+
+#lasticFork{
+    width: 50px;
+    height: 50px;
+}
+
+.grid_contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 50px;
+}
