@@ -1,27 +1,124 @@
 .contenedor{
-    width: 100vw;
-    height: 100vw;
+    width: 70vw;
+    height: 200vw;
     background-color: white;
+    margin: auto;
 }
-
-#dinosaurio{
-    width: 500px;
-    height: 500px;
-}
-
-#weDeeply{
-    width: 500px;
-    height: 500px;
-}
-
-#lasticFork{
-    width: 50px;
-    height: 50px;
-}
-
 .grid_contenedor{
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 10px;
     background-color: black;
-    padding: 50px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.grid-contenedor > div {
+    background-color: red;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.video1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.video11{
+    border-radius: 1vw;
+    width: 35vw;
+    height: auto;
+}
+
+.video2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.video22{
+    border-radius: 1vw;
+    width: 35vw;
+    height: auto;
+}
+
+.video3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.video33{
+    border-radius: 1vw;
+    width: 69vw;
+    height: auto;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid_contenedor2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: black;
+    justify-content: center;
+}
+
+.grid-contenedor2 > div {
+    background-color: red;
+    border: 1px solid #ddd;
+   
+}
+
+.large-item1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.large-item2 img {
+    border-radius: 30px;
+    max-width: 95%;
+    height: 85%;
+    margin-top: 2vw;
+    margin-left: 0.88vw;
+}
+
+.large-item3 img {
+    border-radius: 2vw;
+    width: 100%;
+    height: 90%;
+    margin-top: 2vw;
+}
+
+.item1_2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.item2_2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.video4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.video44{
+    border-radius: 1vw;
+    width: 32vw;
+    margin-left: 1.14vw;
+    height: 21vw;
+}
+.large-item4 {
+    border-radius: 30px;
+    max-width: 100%;
+    height: 60%;
 }
