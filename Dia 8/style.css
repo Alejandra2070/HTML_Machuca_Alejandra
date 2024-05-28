@@ -1,8 +1,9 @@
 .contenedor{
-    width: 100vw;
+    width: 92vw;
     height: 200vw;
     background-color: white;
     margin: auto;
+    max-width: 1800px;
 }
 .grid_contenedor{
     display: grid;
@@ -12,6 +13,7 @@
     padding: 10px;
     justify-content: center;
     border-radius: 2%;
+    width: 100%;
 }
 
 .grid-contenedor > div {
@@ -51,7 +53,6 @@
 
 .video33{
     border-radius: 1vw;
-    width: 69vw;
     height: auto;
     width: 100%;
 }
@@ -69,6 +70,7 @@
     background-color: black;
     justify-content: center;
     border-radius: 2%;
+    width: 100%;
 }
 
 .grid-contenedor2 > div {
@@ -118,11 +120,12 @@
 }
 
 .video44{
-    border-radius: 5vw;
+    border-radius: 6vw;
     margin-left: -0.86vw;
     height: 84%;
     width: 100%;
 }
+
 .large-item4 {
     border-radius: 30px;
     max-width: 100%;
