@@ -1,5 +1,5 @@
 .contenedor{
-    width: 70vw;
+    width: 100vw;
     height: 200vw;
     background-color: white;
     margin: auto;
@@ -11,12 +11,14 @@
     background-color: black;
     padding: 10px;
     justify-content: center;
+    border-radius: 2%;
 }
 
 .grid-contenedor > div {
     background-color: red;
     padding: 20px 0;
     font-size: 30px;
+    border-radius: 2%;
 }
 
 .video1{
@@ -27,6 +29,7 @@
     border-radius: 1vw;
     width: 35vw;
     height: auto;
+    width: 100%;
 }
 
 .video2{
@@ -38,6 +41,7 @@
     border-radius: 1vw;
     width: 35vw;
     height: auto;
+    width: 100%;
 }
 
 .video3{
@@ -49,6 +53,7 @@
     border-radius: 1vw;
     width: 69vw;
     height: auto;
+    width: 100%;
 }
 .item2{
     grid-column-start: 2;
@@ -63,6 +68,7 @@
     gap: 10px;
     background-color: black;
     justify-content: center;
+    border-radius: 2%;
 }
 
 .grid-contenedor2 > div {
@@ -83,6 +89,7 @@
     height: 85%;
     margin-top: 2vw;
     margin-left: 0.88vw;
+    width: 100%;
 }
 
 .large-item3 img {
@@ -108,14 +115,13 @@
 .video4{
     grid-column-start: 1;
     grid-column-end: 2;
-
 }
 
 .video44{
-    border-radius: 1vw;
-    width: 32vw;
-    margin-left: 1.14vw;
-    height: 21vw;
+    border-radius: 5vw;
+    margin-left: -0.86vw;
+    height: 84%;
+    width: 100%;
 }
 .large-item4 {
     border-radius: 30px;
