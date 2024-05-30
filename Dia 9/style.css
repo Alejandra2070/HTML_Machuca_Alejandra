@@ -1,0 +1,207 @@
+body{
+    overflow: hidden;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 50vw;
+    background-color: aquamarine;
+}
+
+.fondoComplet {
+    border: red 5px solid;
+    width: 100vw;
+    height: 50vw;
+}
+
+#fondoPaisaje{
+    width: 100vw;
+    height: 50vw;
+}
+
+#imagenCasita{
+    display: flex;
+    position: relative;
+    top: -125vw;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 0vw;
+}
+
+#imagenCasita2{
+    display: flex;
+    position: relative;
+    top: -146vw;
+    width: 20vw;
+    height: 17vw;
+    margin-left: 82vw;
+}
+
+#imagenSol{
+    display: flex;
+    position: relative;
+    top: -51vw;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 64vw;
+    opacity: 0;
+    animation-name: imagen1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagen1{
+    0% {opacity: 0.6;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+#imagenNube{
+    display: flex;
+    position: relative;
+    top: -70vw;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 80vw;
+    animation-name: imagen2;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagen2 {
+    0% {left: 25vw;}
+    50% {left: -41.66vw}
+    100% {left: -104.16vw;}
+}
+
+#imagenFlor{
+    display: flex;
+    position: relative;
+    top: -121vw;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 48vw;
+    animation-name: imagen3;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagen3 {
+    0% {top: 10vw;}
+    50% {top: -30vw;}
+    100% {top: -55vw;}
+}
+
+#imagenGota{
+    display: flex;
+    position: relative;
+    top: -70vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 52vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota1{
+    display: flex;
+    position: relative;
+    top: -70vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 48vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota2{
+    display: flex;
+    position: relative;
+    top: -73vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 54vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota3{
+    display: flex;
+    position: relative;
+    top: -74vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 51vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota4{
+    display: flex;
+    position: relative;
+    top: -74vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 48vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota5{
+    display: flex;
+    position: relative;
+    top: -78vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 56vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota6{
+    display: flex;
+    position: relative;
+    top: -78vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 52vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota7{
+    display: flex;
+    position: relative;
+    top: -78vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 48vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+#imagenGota8{
+    display: flex;
+    position: relative;
+    top: -82vw;
+    width: 5vw;
+    height: 4vw;
+    margin-left: 56vw;
+    animation-name: imagen4;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagen4 {
+    0% {top: -100vw; opacity: 0;}
+    20% {top: -90vw; opacity: 0.50;}
+    100% {top: 10vw; opacity: 1;}
+}
