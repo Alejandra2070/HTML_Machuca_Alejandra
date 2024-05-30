@@ -9,7 +9,6 @@ body{
 }
 
 .fondoComplet {
-    border: red 5px solid;
     width: 100vw;
     height: 50vw;
 }
@@ -70,7 +69,7 @@ body{
 
 @keyframes imagen2 {
     0% {left: 25vw;}
-    50% {left: -41.66vw}
+    50% {left: -42vw}
     100% {left: -104.16vw;}
 }
 
@@ -80,7 +79,7 @@ body{
     top: -121vw;
     width: 20vw;
     height: 20vw;
-    margin-left: 48vw;
+    margin-left: 41vw;
     animation-name: imagen3;
     animation-duration:8s;
     animation-iteration-count: infinite;
@@ -89,7 +88,7 @@ body{
 @keyframes imagen3 {
     0% {top: 10vw;}
     50% {top: -30vw;}
-    100% {top: -55vw;}
+    100% {top: -57vw;}
 }
 
 #imagenGota{
@@ -98,9 +97,9 @@ body{
     top: -70vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 52vw;
+    margin-left: 46vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
@@ -110,9 +109,9 @@ body{
     top: -70vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 48vw;
+    margin-left: 41vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
@@ -122,9 +121,9 @@ body{
     top: -73vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 54vw;
+    margin-left: 49vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
@@ -134,9 +133,9 @@ body{
     top: -74vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 51vw;
+    margin-left: 45vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
@@ -146,9 +145,9 @@ body{
     top: -74vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 48vw;
+    margin-left: 41vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
@@ -158,33 +157,33 @@ body{
     top: -78vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 56vw;
+    margin-left: 49vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
 #imagenGota6{
     display: flex;
     position: relative;
-    top: -78vw;
+    top: -75vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 52vw;
+    margin-left: 41vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
 #imagenGota7{
     display: flex;
     position: relative;
-    top: -78vw;
+    top: -82vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 48vw;
+    margin-left: 45vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
@@ -194,14 +193,14 @@ body{
     top: -82vw;
     width: 5vw;
     height: 4vw;
-    margin-left: 56vw;
+    margin-left: 49vw;
     animation-name: imagen4;
-    animation-duration:8s;
+    animation-duration:9s;
     animation-iteration-count: infinite;
 }
 
 @keyframes imagen4 {
     0% {top: -100vw; opacity: 0;}
-    20% {top: -90vw; opacity: 0.50;}
+    20% {top: -90vw; opacity: 0.8;}
     100% {top: 10vw; opacity: 1;}
 }
