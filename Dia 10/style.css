@@ -1,40 +1,206 @@
 .contenedor{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     width: 100vw;
-    height: 100vw;
-    border: green 1px solid;
+    height: auto;
+    
 }
 
 #caja1{
-
-    width: 25vw;
-    height: 50vw;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 35vw;
+    height: 100vw;
+    border: red 1px solid;
 }
 
 #caja2{
-
-    width: 80vw;
-    height: 5vw;
-    margin-left: -69%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 65vw;
+    height: 100vw;
+    border: blue 1px solid;
 }
 
-#caja3{
+#cuadritos{
+    background-color: #cbcace;
+    height: 93vw;
+    margin-top: 2.7vw;
+}
+
+.linea{
+    background-color: #cbcace;
+    overflow: hidden;
+    height: 10px;
+    width: 13vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+}
+
+#linea1{
+    background-color: blue;
+    height: 100%;
+
+}
+#cuadrito1{
+    background-color: white;
+    width: 15vw;
+    height: 8vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    border-radius: 1vw;
+}
+
+#cuadrito2{
+    background-color: white;
+    margin-left: 17vw;
+    margin-top: -9vw;
+    width: 15vw;
+    height: 8vw;
+    border-radius: 1vw;
+}
+
+#cuadrito3{
+    background-color: white;
+    margin-left: 33vw;
+    margin-top: -9vw;
+    width: 15vw;
+    height: 8vw;
+    border-radius: 1vw;
+}
+
+#cuadrito4{
+    background-color: white;
+    margin-left: 49vw;
+    margin-top: -9vw;
+    width: 15vw;
+    height: 8vw;
+    border-radius: 1vw;
+}
+
+#cuadrito5{
+    background-color: white;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width: 63vw;
+    height: 6vw;
+    border-radius: 1vw;
+}
+
+#logo{
+    position: relative;
+    top: 2vw;
+    left: 0vw;
+    width: 2vw;
+}
+
+#logo1{
+    position: relative;
+    top: -17.5vw;
+    left: 13vw;
+    width: 2vw;
+}
+
+#logo2{
+    position: relative;
+    top: -19.5vw;
+    left: 45vw;
+    width: 2vw;
+}
+
+#logo3{
+    position: relative;
+    top: -21.5vw;
+    left: 60.9vw;
+    width: 2vw;
+}
+
+#logo4{
+    position: relative;
+    top: -24.5vw;
+    left: 28.9vw;
+    width: 2vw;
+}
+#sales{
+    position: relative;
+    width: 8vw;
+    top: 1vw;
+    left: 1.5vw; 
+    font-size: 1vw;
+}
+
+#mundo{
+    position: relative;
+    width: 8vw;
+    top: 1vw;
+    left: 1.5vw;
+}
+
+#numero{
+    position: relative;
+    top: 1.3vw;
+    left: 1vw;
+    font-size: 1.4vw;
+    
+}
+
+#traffic{
+    position: relative;
+    left: 1.1vw;
+    top: 0.3vw;
+    font-size: 0.7vw;
+}
+
+.letritas{
+    margin-top: -0.5vw;
+    left: 1.1vw;
+    font-size: 0.7vw;
+}
+
+#home{
+    position: relative;
+    left: 1.1vw;
+    color: blue;
+}
+
+#dashboard{
+    position: relative;
+    left: 3.5vw;
+    top: -1.5vw;
+    color:#909094;
+}
+/*#caja3{
 
     background-color: #cac9cd;
-    width: 78vw;
+    width: 87vw;
     height: 45.6vw;
-    margin-top: -59%;
-    margin-left: 28%;
-}
+    margin-top: -46vw;
+    margin-left: 25vw;
+    border: violet 1px solid;
+}*/
 
 #listita{
     position: relative;
-    font-size: 2vw;
-    top: -2vw;
-    left: 2vw;
+    top: 2vw;
+    left: 0vw;
+    width: 2vw;
 }
+
+#listita1{
+    position: relative;
+    top: -2vw;
+    left: 0vw;
+    width: 2vw;
+}
+
+#listita2{
+    position: relative;
+    top: 1vw;
+    left: 2vw;
+    width: 2vw;
+    border: green 1px solid;
+}
+
 :root{
     --estado-buda: 0.3s;
     --cada-item: 28px;
