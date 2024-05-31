@@ -1,51 +1,101 @@
 .contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     width: 100vw;
     height: 100vw;
+    border: green 1px solid;
 }
 
-.grid_contenedor{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: #d4d3d7;
-    padding: 10px;
-    justify-content: center;
+#caja1{
+
+    width: 25vw;
+    height: 50vw;
+}
+
+#caja2{
+
+    width: 80vw;
+    height: 5vw;
+    margin-left: -69%;
+}
+
+#caja3{
+
+    background-color: #cac9cd;
+    width: 78vw;
+    height: 45.6vw;
+    margin-top: -59%;
+    margin-left: 28%;
+}
+
+#listita{
+    position: relative;
+    font-size: 2vw;
+    top: -2vw;
+    left: 2vw;
+}
+:root{
+    --estado-buda: 0.3s;
+    --cada-item: 28px;
+    --cantidad-items: 2;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    gap: 30px;
+}
+
+header{
+    width: 200px;
+    background: white;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 16px;
+}
+
+nav ul li{
+    border-bottom: 1px solid;
+}
+
+nav ul a{
+    box-sizing: border-box;
+    color: #121212;
+    background: white;
+    display: block;
     width: 100%;
-}  
-
-.grid-contenedor > div {
-    background-color: red;
-    padding: 20px 0;
-    font-size: 30px;
-    border-radius: 2%;
+    padding: 6px 10px;
+    text-decoration: none;
 }
 
-#borde{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    border: red 1px solid;
-}
-.menuPrincipal{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    border: red 1px solid;
+nav ul ul{
+    height: 0px;
+    overflow: hidden;
+    transition: var(--estado-buda);
+    counter-reset: items;
 }
 
-main{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    border: red 1px solid;
+nav ul ul li{
+    counter-increment: items;
+}
+nav ul li:hover ul{
+    height: 70px;
+
 }
 
-.salesReport{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    border: red 1px solid;
+nav ul li:hover ul{
+    height: calc( var(--cantidad-items) * var(--cada-item) );
+    
 }
-   
+
+nav ul ul a{
+    background: transparent;
+} 
