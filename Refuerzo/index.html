@@ -7,18 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="contenido">
-        <img id="imgFondo" src="imagenes/Fondo.png" alt="">
-        <div class="cuadroAzul">
-            <a id="inicio" href="index.html">Inicio</a>
-            <p id="queEs">¿Qué es?</p>
-            <img id="imgGobierno" src="imagenes/gobiernodecolombia.png" alt="">
-            <p id="entrega">Entrega</p>
-            <p id="cuadroConsult"></p>
-            <a id="consultar1" href="index.html">Consultar</a>
-        </div>
-        
+    <div class="cuadroAzul" id="cuadrito">
+        <p id="inicio">Inicio</p>
+        <p id="queEs">¿Qué es?</p>
+        <img id="imgGobierno" src="imagenes/gobiernodecolombia.png" alt="">
+        <p id="entrega">Entrega</p>
+        <p id="cuadroConsult"></p>
+        <a id="consultar1" href="index.html">Consultar</a>
     </div>
+    <div id="seccion1" class="secciones">
+        <div id="fondo1" >
+            <img id="imgFondo" src="imagenes/Fondo.png" alt="">
+            <div class="cuadroBlanco">
+                <p id="letrita">Consulta tu estado del</p>
+                <p id="letrita1">Ingreso</p>
+                <p id="letrita2">Solidario</p>
+                <p id="letrita3">Por favor ingresa tus datos personales para revisar el estado de entrega</p>
+                <p id="letrita4">de tu ingreso</p>
+                <form action="index.html">
+                    <label for="tipo">Tipo de documento</label>
+                    <br>
+                        <input type="text" id="tipo" placeholder="Cédula de ciudadanía" required></input>
+                    <br>
+                    <label for="numero">Número de documento</label>
+                    <br>
+                        <input type="text" id="numero" required></input>
+                    <br>
+                    <label for="nombre">Primer Nombre</label>
+                    <br>
+                        <input type="text" id="nombre" required></input>
+                    <br>
+                    <label for="apellido">Primer Apellido</label>
+                    <br>
+                        <input type="text" id="apellido" required></input>
+                    <br>
+                    <label for="fecha">Fecha de expedición del documento</label>
+                    <br>
+                        <input type="date" id="fechaE" required></input>
+                    <br>
+                    <label for="tel">Teléfono Móvil</label>
+                    <br>
+                        <input type="text" id="telf" required></input>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <!--<a href="#seccion2">Conocer más</a>-->
+    </div>
+    <div id="seccion2" class="secciones">
+        <a href="#seccion3">Info</a>
+    </div>
+    <div id="seccion3" class="secciones">
+        <a href="#seccion4">Info</a>
+    </div>
+    <div id="seccion4" class="secciones">
+        <a href="#seccion5">Info</a>
+    </div>
+    <div id="seccion5" class="secciones">
+        <a href="#seccion6">Info</a>
+    </div>
+    <div id="seccion6" class="secciones">
+        <p>final</p>
+    </div>
+    
 </body>
 </html>
-<!--<img id="imgFondo" src="imagenes/Fondo.png" alt="">-->

@@ -1,24 +1,22 @@
-.contenido {
-    width: 100vw;
+.secciones {
     height: 100vh;
-    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: red 1px solid;
 }
 
-#imgFondo{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.5; 
+#cuadrito{
+    background-color: #3669c9;
+    /*border: 1px solid #91a9d7;*/
+    border: red 1px solid;
 }
 
 .cuadroAzul{
     position: fixed;
-    width: 100vw;
+    width: 98vw;
     height: 10vw;
-    background-color: #3669c9;
-    border: 1px solid #91a9d7;
-    top: 0.5vw;
+    top: 0vw;
     box-sizing: border-box;
     z-index: 1;
 }
@@ -26,7 +24,7 @@
 #inicio{
     position: relative;
     color: white;
-    top: 3.8vw;
+    top: 1.8vw;
     left: 15vw;
     font-size: 2vw;
     text-decoration: none;
@@ -35,7 +33,7 @@
 #queEs{
     position: relative;
     color: white;
-    top: -0.4vw;
+    top: -2.4vw;
     left: 25vw;
     font-size: 2vw;
 }
@@ -43,21 +41,22 @@
 #imgGobierno{
     position: relative;
     color: black;
-    top: -6vw;
+    top: -7.6vw;
     left: 40vw;
-    border: red 1px solid;
+    width: 20vw;
+    height: 4vw;
 }
 
 #entrega{
     position: relative;
     color: white;
-    top: -11.4vw;
+    top: -13vw;
     left: 65vw;
     font-size: 2vw;
 }
 
 #cuadroConsult{
-    top: -16vw;
+    top: -17.5vw;
     left: 82.3vw;
     width: 10vw;
     height: 3vw;
@@ -69,8 +68,128 @@
 #consultar1{
     position: relative;
     color: black;
-    top: -19.4vw;
+    top: -20.8vw;
     left: 84vw;
+    border: 1px solid red;
     font-size: 1.7vw;
     text-decoration: none;
+}
+
+#seccion1{
+    margin-top: 10vw;
+}
+
+#fondo1{
+    width: 100vw;
+    height: 100vh;
+}
+
+#imgFondo{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    top: 0vw;
+    left: 0vw;
+    opacity: 1;
+}
+
+.cuadroBlanco{
+    top: -44.5vw;
+    left: 5.5vw;
+    width: 32vw;
+    height: 39vw;
+    position: relative;
+    background-color: white;
+    border-radius: 1.5vw;
+    border: red 1px solid;
+}
+
+#letrita{
+    color: black;
+    font-size: 2vw;
+    margin-left: 6.5vw;
+}
+
+#letrita1{
+    color: black;
+    font-size: 2vw;
+    margin-left: 12.5vw;
+    margin-top: -1.5vw;
+}
+
+#letrita2{
+    color: black;
+    font-size: 2vw;
+    margin-left: 12vw;
+    margin-top: -1.5vw;
+}
+
+#letrita3{
+    color: black;
+    font-size: 1vw;
+    margin-left: 1.8vw;
+    margin-top: -1.5vw;
+}
+
+#letrita4{
+    color: black;
+    font-size: 1vw;
+    margin-left: 13vw;
+    margin-top: -0.8vw;
+}
+
+#tipo{
+    width: 25vw;
+    height: 1.8vw;
+    margin-left: 3vw;
+}
+
+#numero{
+    width: 25vw;
+    height: 1.8vw;
+    margin-left: 3vw;
+}
+
+#nombre{
+    width: 25vw;
+    height: 1.8vw;
+    margin-left: 3vw;
+}
+
+#apellido{
+    width: 25vw;
+    height: 1.8vw;
+    margin-left: 3vw;
+}
+
+#fechaE{
+    width: 25.2vw;
+    height: 2vw;
+    margin-left: 3vw;
+}
+
+#telf{
+    width: 25vw;
+    height: 1.8vw;
+    margin-left: 3vw;
+}
+
+#seccion2{
+    background-color: antiquewhite;
+}
+
+#seccion3{
+    background-color: rgb(238, 200, 97);
+}
+
+#seccion4{
+    background-color: rgb(216, 240, 175);
+}
+
+#seccion5{
+    background-color: rgb(215, 238, 250);
+}
+
+#seccion6{
+    background-color: rgb(243, 215, 250);
 }
