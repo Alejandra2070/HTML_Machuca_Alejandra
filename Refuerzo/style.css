@@ -1,3 +1,8 @@
+@font-face {
+    font-family: letra1;
+    src: url(letra/Myriad\ Pro\ Light.otf);
+}
+
 .secciones {
     height: 100vh;
     display: flex;
@@ -70,7 +75,6 @@
     color: black;
     top: -20.8vw;
     left: 84vw;
-    border: 1px solid red;
     font-size: 1.7vw;
     text-decoration: none;
 }
@@ -101,34 +105,38 @@
     position: relative;
     background-color: white;
     border-radius: 1.5vw;
-    border: red 1px solid;
 }
 
 #letrita{
     color: black;
     font-size: 2vw;
     margin-left: 6.5vw;
+    margin-top: 1.8vw;
+    font-family: letra1;
 }
 
 #letrita1{
     color: black;
     font-size: 2vw;
     margin-left: 12.5vw;
-    margin-top: -1.5vw;
+    margin-top: -2.3vw;
+    font-family: letra1;
 }
 
 #letrita2{
     color: black;
     font-size: 2vw;
     margin-left: 12vw;
-    margin-top: -1.5vw;
+    margin-top: -2.1vw;
+    font-family: letra1;
 }
 
 #letrita3{
     color: black;
     font-size: 1vw;
     margin-left: 1.8vw;
-    margin-top: -1.5vw;
+    margin-top: -2vw;
+    font-family: letra1;
 }
 
 #letrita4{
@@ -136,46 +144,174 @@
     font-size: 1vw;
     margin-left: 13vw;
     margin-top: -0.8vw;
+    font-family: letra1;
+}
+
+#letrita5{
+    margin-left: 3vw;
+    font-size: 1vw;
+    font-family: letra1;
 }
 
 #tipo{
+    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
-#numero{
+#nums{
+    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #nombre{
+    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #apellido{
+    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #fechaE{
-    width: 25.2vw;
+    position: relative;
+    width: 25vw;
     height: 2vw;
     margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #telf{
+    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
+#cuadritoAzul{
+    top: -50.7vw;
+    left: 14.5vw;
+    width: 14vw;
+    height: 3.2vw;
+    position: relative;
+    border-radius: 1vw;
+    background-color: #3669c9;
+    border: #3669c9 1px solid;
+}
+
+#letrita6{
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+    margin-left: 0vw;
+    height: 3vw;
+    color: white;
+    text-align: center;
+    font-family: letra1;
+}
+
+#letrita7{
+    margin-left: 60.3vw;
+    margin-top: -74vw;
+    font-size: 2vw;
+    color: black;
+    font-family: letra1;
+}
+
+#letrita8{
+    width: 31vw;
+    margin-left: 52.5vw;
+    margin-top: -1.2vw;
+    font-size: 1.4vw;
+    color: black;
+    font-family: letra1;
+    text-align: center;
+}
+
+#cuadritoAzul2{
+    top: 1vw;
+    left: 60.5vw;
+    width: 14vw;
+    height: 3.2vw;
+    position: relative;
+    border-radius: 1vw;
+    background-color: #3669c9;
+}
+
+#boton2{
+    position: relative;
+    color: white;
+    margin-left: 64vw;
+    top: -2.7vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: letra1;
+}
+
 #seccion2{
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+#fondo2{
+    width: 100vw;
+    height: 100vh;
+}
+
+#img2{
+    width: 50vw;
+    height: 40vw;
+    margin-left: 4vw;
+    margin-top: 8vw;
+}
+
+#que{
+    margin-left: -22.3vw;
+    margin-top: -30vw;
+    font-size: 3vw;
+    color: black;
+    font-family: letra1;
+}
+
+#esquema{
+    text-align: center;
+    position: relative;
+    width: 39vw;
+    margin-left: -130.5vw;
+    margin-top: -10vw;
+    font-size: 1.7vw;
+    color: black;
+    font-family: letra1;
+}
+
+#hogares{
+    text-align: center;
+    position: relative;
+    width: 45vw;
+    margin-left: -42vw;
+    margin-top: 16vw;
+    font-size: 1.7vw;
+    color: black;
+    font-family: letra1;
+}
+
+#boton3{
+    position: relative;
+    color: black;
+    margin-left: -27vw;
+    top: 20.7vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: letra1;
 }
 
 #seccion3{
