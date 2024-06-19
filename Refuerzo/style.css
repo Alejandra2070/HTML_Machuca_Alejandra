@@ -3,7 +3,22 @@
     src: url(letra/Myriad\ Pro\ Light.otf);
 }
 
+@font-face {
+    font-family: letra2;
+    src: url(letra/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: letra3;
+    src: url(letra/Myriad\ Pro\ Semibold\ Italic.ttf);
+}
+
+@font-face {
+    font-family: letra4;
+    src: url(letra/Myriad\ Pro\ Bold.ttf);
+}
 .secciones {
+    position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -81,6 +96,7 @@
 
 #seccion1{
     margin-top: 10vw;
+    position: relative;
 }
 
 #fondo1{
@@ -260,6 +276,7 @@
 
 #seccion2{
     background-color: white;
+    position: relative;
 }
 
 #fondo2{
@@ -315,17 +332,235 @@
 }
 
 #seccion3{
-    background-color: rgb(238, 200, 97);
+    background-color: white;
+    position: relative;
+}
+    
+#fondo3{
+    width: 100vw;
+    height: 100vh;
+}
+
+#etapas{
+    font-size: 2.5vw;
+    font-family: letra1;
+    text-align: center;
+}
+
+#etapa1{
+    margin-left: 15vw;
+    font-size: 2vw;
+    font-family: letra1;
+}
+
+#etapa2{
+    margin-top: -4.3vw;
+    margin-left: 46vw;
+    font-size: 2vw;
+    font-family: letra1;
+}
+
+#etapa3{
+    margin-top: -4.3vw;
+    margin-left: 76vw;
+    font-size: 2vw;
+    font-family: letra1;
+}
+
+#desde{
+    margin-top: -0.5vw;
+    margin-left: 10vw;
+    font-size: 2.2vw;
+    font-family: letra2;
+}
+
+#nueve{
+    margin-top: -4.8vw;
+    margin-left: 38.5vw;
+    font-size: 2.2vw;
+    font-family: letra2;
+}
+
+#abril{
+    margin-top: -4.8vw;
+    margin-left: 68vw;
+    font-size: 2.2vw;
+    font-family: letra2;
+}
+
+#bancos{
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: letra1;
+}
+
+#bancamia{
+    width: 22vw;
+    height: 10vw;
+    margin-left: 7vw;
+    margin-top: -5vw;
+}
+
+#bancolombia{
+    width: 28vw;
+    height: 14vw;
+    margin-left: 4vw;
+    margin-top: -5vw;
+}
+
+#bancoCajaSocial{
+    position: relative;
+    width: 29vw;
+    height: 8vw;
+    margin-left: 62vw;
+    top: -10vw;
+}
+
+#movii{
+    position: relative;
+    width: 16vw;
+    height: 5vw;
+    margin-left: 28vw;
+    top: -12vw;
+}
+
+#daviplata{
+    position: relative;
+    width: 18vw;
+    height: 10vw;
+    margin-left: 4vw;
+    top: -10vw;
+}
+
+#preguntas{
+    position: relative;
+    color: black;
+    margin-left: -27vw;
+    top: -3vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: letra1;
 }
 
 #seccion4{
     background-color: rgb(216, 240, 175);
+    position: relative;
+}
+
+#fondo4{
+    width: 100vw;
+    height: 100vh;
+}
+
+#preguntasFrecuentes{
+    margin-top: 5vw;
+    font-size: 2.5vw;
+    font-family: letra1;
+    text-align: center;
+}
+
+#uno{
+    margin-top: -1vw;
+    margin-left: 47.5vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: #3669c9;
+    color: white;
+    text-align: center;
+    border-radius: 2vw;
+}
+
+#pregU{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2vw;
+    font-family: letra3;
+}
+
+#respU{
+    text-align: center;
+    position: relative;
+    width: 49vw;
+    margin-left: 23.5vw;
+    margin-top: 0vw;
+    font-size: 1.7vw;
+    color: black;
+    font-family: letra1;
+}
+
+#dos{
+    margin-top: 1vw;
+    margin-left: 47.5vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: #3669c9;
+    color: white;
+    text-align: center;
+    border-radius: 2vw;
+}
+
+#pregD{
+    text-align: center;
+    margin-top: -0.5vw;
+    font-size: 2vw;
+    font-family: letra3;
+}
+
+#respD{
+    text-align: center;
+    position: relative;
+    width: 49vw;
+    margin-left: 23.5vw;
+    margin-top: 0vw;
+    font-size: 1.7vw;
+    color: black;
+    font-family: letra1;
+}
+
+#verMas{
+    position: relative;
+    color: black;
+    margin-left: 47vw;
+    top: 1vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: letra1;
 }
 
 #seccion5{
     background-color: rgb(215, 238, 250);
+    position: relative;
+}
+
+#tres{
+    margin-top: -38vw;
+    margin-left: 47.5vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: #3669c9;
+    color: white;
+    text-align: center;
+    border-radius: 2vw;
+}
+
+#pregT{
+    margin-left: -25vw;
+    font-size: 2vw;
+    font-family: letra3;
+}
+
+#respT{
+    text-align: center;
+    position: relative;
+    width: 209vw;
+    margin-left: 23.5vw;
+    margin-top: 0vw;
+    font-size: 1.7vw;
+    color: black;
+    font-family: letra1;
 }
 
 #seccion6{
     background-color: rgb(243, 215, 250);
+    position: relative;
 }
