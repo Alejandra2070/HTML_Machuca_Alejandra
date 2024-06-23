@@ -17,19 +17,17 @@
     font-family: letra4;
     src: url(letra/Myriad\ Pro\ Bold.ttf);
 }
+
 .secciones {
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: red 1px solid;
 }
 
 #cuadrito{
     background-color: #3669c9;
-    /*border: 1px solid #91a9d7;*/
-    border: red 1px solid;
 }
 
 .cuadroAzul{
@@ -100,6 +98,7 @@
 }
 
 #fondo1{
+    position: relative;
     width: 100vw;
     height: 100vh;
 }
@@ -129,6 +128,7 @@
     margin-left: 6.5vw;
     margin-top: 1.8vw;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita1{
@@ -137,6 +137,7 @@
     margin-left: 12.5vw;
     margin-top: -2.3vw;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita2{
@@ -145,6 +146,7 @@
     margin-left: 12vw;
     margin-top: -2.1vw;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita3{
@@ -153,6 +155,7 @@
     margin-left: 1.8vw;
     margin-top: -2vw;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita4{
@@ -161,12 +164,14 @@
     margin-left: 13vw;
     margin-top: -0.8vw;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita5{
     margin-left: 3vw;
     font-size: 1vw;
     font-family: letra1;
+    position: relative;
 }
 
 #tipo{
@@ -234,6 +239,7 @@
     color: white;
     text-align: center;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita7{
@@ -242,6 +248,7 @@
     font-size: 2vw;
     color: black;
     font-family: letra1;
+    position: relative;
 }
 
 #letrita8{
@@ -252,6 +259,7 @@
     color: black;
     font-family: letra1;
     text-align: center;
+    position: relative;
 }
 
 #cuadritoAzul2{
@@ -282,6 +290,7 @@
 #fondo2{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 #img2{
@@ -289,6 +298,7 @@
     height: 40vw;
     margin-left: 4vw;
     margin-top: 8vw;
+    position: relative;
 }
 
 #que{
@@ -297,6 +307,7 @@
     font-size: 3vw;
     color: black;
     font-family: letra1;
+    position: relative;
 }
 
 #esquema{
@@ -339,18 +350,21 @@
 #fondo3{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 #etapas{
     font-size: 2.5vw;
     font-family: letra1;
     text-align: center;
+    position: relative;
 }
 
 #etapa1{
     margin-left: 15vw;
     font-size: 2vw;
     font-family: letra1;
+    position: relative;
 }
 
 #etapa2{
@@ -358,6 +372,7 @@
     margin-left: 46vw;
     font-size: 2vw;
     font-family: letra1;
+    position: relative;
 }
 
 #etapa3{
@@ -365,6 +380,7 @@
     margin-left: 76vw;
     font-size: 2vw;
     font-family: letra1;
+    position: relative;
 }
 
 #desde{
@@ -372,6 +388,7 @@
     margin-left: 10vw;
     font-size: 2.2vw;
     font-family: letra2;
+    position: relative;
 }
 
 #nueve{
@@ -379,6 +396,7 @@
     margin-left: 38.5vw;
     font-size: 2.2vw;
     font-family: letra2;
+    position: relative;
 }
 
 #abril{
@@ -386,12 +404,14 @@
     margin-left: 68vw;
     font-size: 2.2vw;
     font-family: letra2;
+    position: relative;
 }
 
 #bancos{
     text-align: center;
     font-size: 2.5vw;
     font-family: letra1;
+    position: relative;
 }
 
 #bancamia{
@@ -399,6 +419,7 @@
     height: 10vw;
     margin-left: 7vw;
     margin-top: -5vw;
+    position: relative;
 }
 
 #bancolombia{
@@ -406,6 +427,7 @@
     height: 14vw;
     margin-left: 4vw;
     margin-top: -5vw;
+    position: relative;
 }
 
 #bancoCajaSocial{
@@ -443,13 +465,13 @@
 }
 
 #seccion4{
-    background-color: rgb(216, 240, 175);
     position: relative;
 }
 
 #fondo4{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 #preguntasFrecuentes{
@@ -457,6 +479,7 @@
     font-size: 2.5vw;
     font-family: letra1;
     text-align: center;
+    position: relative;
 }
 
 #uno{
@@ -468,6 +491,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    position: relative;
 }
 
 #pregU{
@@ -475,6 +499,7 @@
     margin-top: 1vw;
     font-size: 2vw;
     font-family: letra3;
+    position: relative;
 }
 
 #respU{
@@ -497,6 +522,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    position: relative;
 }
 
 #pregD{
@@ -504,6 +530,7 @@
     margin-top: -0.5vw;
     font-size: 2vw;
     font-family: letra3;
+    position: relative;
 }
 
 #respD{
@@ -528,13 +555,13 @@
 }
 
 #seccion5{
-    background-color: rgb(215, 238, 250);
     position: relative;
 }
 
 #fondo5{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 #tres{
@@ -546,7 +573,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
-    border: 1px solid red;
+    position: relative;
 }
 
 #pregT{
@@ -555,6 +582,7 @@
     margin-left: 10.7vw;
     font-size: 2vw;
     font-family: letra3;
+    position: relative;
 }
 
 #respT{
@@ -577,7 +605,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
-    border: 1px solid red;
+    position: relative;
 }
 
 #pregC{
@@ -587,6 +615,7 @@
     text-align: center;
     font-size: 2vw;
     font-family: letra3;
+    position: relative;
 }
 
 #respC{
@@ -616,6 +645,7 @@
 #fondo6{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 #cinco{
@@ -627,7 +657,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
-    border: 1px solid red;
+    position: relative;
 }
 
 #pregCN{
@@ -636,6 +666,7 @@
     margin-left: 7vw;
     font-size: 2vw;
     font-family: letra3;
+    position: relative;
 }
 
 #respCN{
@@ -699,113 +730,111 @@
 
 .cuadroAzul2{
     position: relative;
-    width: 100vw;
-    height: 9vw;
+    width: 97.9vw;
+    height: 10.1vw;
     background-color: #3669c9;
-    border: 1px solid #91a9d7;
-    top: -18vw;
-    box-sizing: border-box;
-    z-index: 1;
+    top: 2.2vw;
+    left: 1.05vw;
 }
 
 #imgLocation{
     top: 0.4vw;
-    left: 439px;
-    width: 31px;
-    height: 41px;
+    left: 22vw;
+    width: 1.5vw;
+    height: 1.8vw;
     opacity: 1;
     position: relative;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 #texto1{
     position: relative;
     color: white;
-    top: -16px;
-    left: 364px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -0.8vw;
+    left: 18vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #texto2{
     position: relative;
     color: white;
-    top: -37px;
-    left: 151px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -1.6vw;
+    left: 12vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #texto3{
     position: relative;
     color: white;
-    top: -59px;
-    left: 346px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -2.4vw;
+    left: 18vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #texto4{
     position: relative;
     color: white;
-    top: -83px;
-    left: 252px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -3.4vw;
+    left: 13vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #imgFooter{
-    top: -221px;
-    left: 822px;
-    width: 313px;
-    height: 60px;
+    top: -10.5vw;
+    left: 42vw;
+    width: 20vw;
+    height: 4vw;
     opacity: 1;
     position: relative;
-    font-size: 20px;
 }
 
 #imgPhone{
-    top: -280px;
-    left: 1223px;
-    width: 31px;
-    height: 41px;
+    top: -15vw;
+    left: 63vw;
+    width: 2vw;
+    height: 2vw;
     opacity: 1;
     position: relative;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 #textos1{
     position: relative;
     color: white;
-    top: -302px;
-    left: 1410px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -16vw;
+    left: 73vw;
+    font-size: 1.2vw;
+    font-family: letra1;
+    
 }
 
 #textos2{
     position: relative;
     color: white;
-    top: -324px;
-    left: 1346px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -17vw;
+    left: 74.5vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #textos3{
     position: relative;
     color: white;
-    top: -347px;
-    left: 1464px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -18vw;
+    left: 76vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
 
 #textos4{
     position: relative;
     color: white;
-    top: -369px;
-    left: 1469px;
-    font-size: 24px;
-    text-decoration: none;
+    top: -19vw;
+    left: 72.5vw;
+    font-size: 1.2vw;
+    font-family: letra1;
 }
