@@ -19,7 +19,6 @@
 }
 
 .secciones {
-    position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -34,90 +33,83 @@
     position: fixed;
     width: 98vw;
     height: 10vw;
-    top: 0vw;
+    margin-top: -10vw;
     box-sizing: border-box;
     z-index: 1;
 }
 
 #inicio{
-    position: relative;
     color: white;
-    top: 1.8vw;
-    left: 15vw;
+    margin-top: 3.8vw;
+    margin-left: 15vw;
     font-size: 2vw;
     text-decoration: none;
 }
 
 #queEs{
-    position: relative;
     color: white;
-    top: -2.4vw;
-    left: 25vw;
+    margin-top: -4.4vw;
+    margin-left: 25vw;
     font-size: 2vw;
 }
 
 #imgGobierno{
     position: relative;
     color: black;
-    top: -7.6vw;
-    left: 40vw;
+    top: -4.6vw;
+    margin-left: 40vw;
     width: 20vw;
     height: 4vw;
 }
 
 #entrega{
-    position: relative;
     color: white;
-    top: -13vw;
-    left: 65vw;
+    margin-top: -8vw;
+    margin-left: 66vw;
     font-size: 2vw;
 }
 
 #cuadroConsult{
-    top: -17.5vw;
-    left: 82.3vw;
+    margin-top: -4.5vw;
+    margin-left: 82.3vw;
     width: 10vw;
     height: 3vw;
-    position: relative;
     background-color: white;
     border-radius: 1.3vw;
 }
 
 #consultar1{
-    position: relative;
     color: black;
-    top: -20.8vw;
-    left: 84vw;
+    top: -3.5vw;
+    position: relative;
+    margin-left: 84vw;
     font-size: 1.7vw;
     text-decoration: none;
 }
 
 #seccion1{
     margin-top: 10vw;
-    position: relative;
 }
 
 #fondo1{
-    position: relative;
     width: 100vw;
     height: 100vh;
 }
 
 #imgFondo{
-    position: relative;
     width: 98vw;
     height: 100vh;
-    top: 0vw;
-    left: 0vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
     opacity: 1;
 }
 
 .cuadroBlanco{
-    top: -44.5vw;
-    left: 5.5vw;
+    position: relative;
+    margin-top: -47vw;
+    margin-left: 5.5vw;
     width: 32vw;
     height: 39vw;
-    position: relative;
     background-color: white;
     border-radius: 1.5vw;
 }
@@ -128,7 +120,6 @@
     margin-left: 6.5vw;
     margin-top: 1.8vw;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita1{
@@ -137,7 +128,6 @@
     margin-left: 12.5vw;
     margin-top: -2.3vw;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita2{
@@ -146,7 +136,6 @@
     margin-left: 12vw;
     margin-top: -2.1vw;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita3{
@@ -155,7 +144,6 @@
     margin-left: 1.8vw;
     margin-top: -2vw;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita4{
@@ -164,18 +152,15 @@
     margin-left: 13vw;
     margin-top: -0.8vw;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita5{
     margin-left: 3vw;
     font-size: 1vw;
     font-family: letra1;
-    position: relative;
 }
 
 #tipo{
-    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
@@ -184,28 +169,24 @@
 }
 
 #nums{
-    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #nombre{
-    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #apellido{
-    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #fechaE{
-    position: relative;
     width: 25vw;
     height: 2vw;
     margin-left: 3vw;
@@ -214,18 +195,17 @@
 }
 
 #telf{
-    position: relative;
     width: 25vw;
     height: 1.8vw;
     margin-left: 3vw;
 }
 
 #cuadritoAzul{
-    top: -50.7vw;
-    left: 14.5vw;
+    position: relative;
+    margin-top: -6vw;
+    margin-left: 14.5vw;
     width: 14vw;
     height: 3.2vw;
-    position: relative;
     border-radius: 1vw;
     background-color: #3669c9;
     border: #3669c9 1px solid;
@@ -239,16 +219,14 @@
     color: white;
     text-align: center;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita7{
     margin-left: 60.3vw;
-    margin-top: -74vw;
+    margin-top: -21vw;
     font-size: 2vw;
     color: black;
     font-family: letra1;
-    position: relative;
 }
 
 #letrita8{
@@ -259,112 +237,93 @@
     color: black;
     font-family: letra1;
     text-align: center;
-    position: relative;
 }
 
 #cuadritoAzul2{
-    top: 1vw;
-    left: 60.5vw;
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 60.5vw;
     width: 14vw;
     height: 3.2vw;
-    position: relative;
     border-radius: 1vw;
     background-color: #3669c9;
 }
 
 #boton2{
-    position: relative;
     color: white;
     margin-left: 64vw;
-    top: -2.7vw;
+    position: relative;
+    top: -3.5vw;
     text-decoration: none;
     font-size: 1.5vw;
     font-family: letra1;
 }
 
-#seccion2{
-    background-color: white;
-    position: relative;
-}
-
 #fondo2{
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 #img2{
     width: 50vw;
     height: 40vw;
-    margin-left: 4vw;
+    margin-left: -10vw;
     margin-top: 8vw;
-    position: relative;
 }
 
 #que{
-    margin-left: -22.3vw;
+    margin-left: -24vw;
     margin-top: -30vw;
     font-size: 3vw;
     color: black;
     font-family: letra1;
-    position: relative;
 }
 
 #esquema{
     text-align: center;
-    position: relative;
-    width: 39vw;
-    margin-left: -130.5vw;
+    width: 42vw;
+    margin-left: -143vw;
     margin-top: -10vw;
-    font-size: 1.7vw;
+    font-size: 1.9vw;
     color: black;
     font-family: letra1;
 }
 
 #hogares{
     text-align: center;
-    position: relative;
-    width: 45vw;
-    margin-left: -42vw;
+    width: 50vw;
+    margin-left: -46vw;
     margin-top: 16vw;
-    font-size: 1.7vw;
+    font-size: 1.9vw;
     color: black;
     font-family: letra1;
 }
 
 #boton3{
-    position: relative;
     color: black;
-    margin-left: -27vw;
-    top: 20.7vw;
+    margin-left: -39vw;
+    margin-top: 38vw;
     text-decoration: none;
     font-size: 1.5vw;
     font-family: letra1;
-}
-
-#seccion3{
-    background-color: white;
-    position: relative;
+    text-align: center;
 }
     
 #fondo3{
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 #etapas{
     font-size: 2.5vw;
     font-family: letra1;
     text-align: center;
-    position: relative;
 }
 
 #etapa1{
     margin-left: 15vw;
     font-size: 2vw;
     font-family: letra1;
-    position: relative;
 }
 
 #etapa2{
@@ -372,7 +331,6 @@
     margin-left: 46vw;
     font-size: 2vw;
     font-family: letra1;
-    position: relative;
 }
 
 #etapa3{
@@ -380,7 +338,6 @@
     margin-left: 76vw;
     font-size: 2vw;
     font-family: letra1;
-    position: relative;
 }
 
 #desde{
@@ -388,7 +345,6 @@
     margin-left: 10vw;
     font-size: 2.2vw;
     font-family: letra2;
-    position: relative;
 }
 
 #nueve{
@@ -396,7 +352,6 @@
     margin-left: 38.5vw;
     font-size: 2.2vw;
     font-family: letra2;
-    position: relative;
 }
 
 #abril{
@@ -404,14 +359,12 @@
     margin-left: 68vw;
     font-size: 2.2vw;
     font-family: letra2;
-    position: relative;
 }
 
 #bancos{
     text-align: center;
     font-size: 2.5vw;
     font-family: letra1;
-    position: relative;
 }
 
 #bancamia{
@@ -419,7 +372,6 @@
     height: 10vw;
     margin-left: 7vw;
     margin-top: -5vw;
-    position: relative;
 }
 
 #bancolombia{
@@ -427,71 +379,67 @@
     height: 14vw;
     margin-left: 4vw;
     margin-top: -5vw;
-    position: relative;
 }
 
 #bancoCajaSocial{
-    position: relative;
     width: 29vw;
     height: 8vw;
     margin-left: 62vw;
-    top: -10vw;
+    margin-top: -10vw;
 }
 
 #movii{
-    position: relative;
     width: 16vw;
     height: 5vw;
     margin-left: 28vw;
-    top: -12vw;
+    margin-top: -12vw;
 }
 
 #daviplata{
-    position: relative;
     width: 18vw;
     height: 10vw;
     margin-left: 4vw;
-    top: -10vw;
+    margin-top: -10vw;
 }
 
 #preguntas{
-    position: relative;
     color: black;
-    margin-left: -27vw;
-    top: -3vw;
+    margin-left: -23vw;
+    top: 8vw;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-family: letra1;
+    position: relative;
+    text-align: center;
 }
 
-#seccion4{
-    position: relative;
+#flechita{
+    margin-left: 50.5vw;
+    margin-top: 0vw;
 }
 
 #fondo4{
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 #preguntasFrecuentes{
-    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
     font-size: 2.5vw;
     font-family: letra1;
     text-align: center;
-    position: relative;
 }
 
 #uno{
     margin-top: -1vw;
-    margin-left: 47.5vw;
+    margin-left: 49vw;
     width: 2vw;
     height: 2vw;
     background-color: #3669c9;
     color: white;
     text-align: center;
     border-radius: 2vw;
-    position: relative;
 }
 
 #pregU{
@@ -499,12 +447,10 @@
     margin-top: 1vw;
     font-size: 2vw;
     font-family: letra3;
-    position: relative;
 }
 
 #respU{
     text-align: center;
-    position: relative;
     width: 49vw;
     margin-left: 23.5vw;
     margin-top: 0vw;
@@ -515,14 +461,13 @@
 
 #dos{
     margin-top: 1vw;
-    margin-left: 47.5vw;
+    margin-left: 49vw;
     width: 2vw;
     height: 2vw;
     background-color: #3669c9;
     color: white;
     text-align: center;
     border-radius: 2vw;
-    position: relative;
 }
 
 #pregD{
@@ -530,12 +475,10 @@
     margin-top: -0.5vw;
     font-size: 2vw;
     font-family: letra3;
-    position: relative;
 }
 
 #respD{
     text-align: center;
-    position: relative;
     width: 49vw;
     margin-left: 23.5vw;
     margin-top: 0vw;
@@ -545,35 +488,29 @@
 }
 
 #verMas{
-    position: relative;
     color: black;
-    margin-left: 47vw;
-    top: 1vw;
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-family: letra1;
-}
-
-#seccion5{
+    margin-left: 48.5vw;
+    top: 3vw;
     position: relative;
+    text-decoration: none;
+    font-size: 1.7vw;
+    font-family: letra1;
 }
 
 #fondo5{
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 #tres{
     margin-top: 4vw;
-    margin-left: 47.5vw;
+    margin-left: 50vw;
     width: 2vw;
     height: 2vw;
     background-color: #3669c9;
     color: white;
     text-align: center;
     border-radius: 2vw;
-    position: relative;
 }
 
 #pregT{
@@ -582,12 +519,10 @@
     margin-left: 10.7vw;
     font-size: 2vw;
     font-family: letra3;
-    position: relative;
 }
 
 #respT{
     text-align: center;
-    position: relative;
     width: 75vw;
     margin-left: 11.5vw;
     margin-top: -1.5vw;
@@ -598,14 +533,13 @@
 
 #cuatro{
     margin-top: 4vw;
-    margin-left: 47.5vw;
+    margin-left: 50vw;
     width: 2vw;
     height: 2vw;
     background-color: #3669c9;
     color: white;
     text-align: center;
     border-radius: 2vw;
-    position: relative;
 }
 
 #pregC{
@@ -615,12 +549,10 @@
     text-align: center;
     font-size: 2vw;
     font-family: letra3;
-    position: relative;
 }
 
 #respC{
     text-align: center;
-    position: relative;
     width: 82vw;
     margin-left: 8vw;
     margin-top: -1.5vw;
@@ -630,78 +562,68 @@
 }
 
 #verMasU{
-    position: relative;
     color: black;
-    margin-left: 47vw;
-    top: 1vw;
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-family: letra1;
-}
-#seccion6{
+    margin-left: 48.5vw;
+    top: 2vw;
     position: relative;
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: letra1;
 }
 
 #fondo6{
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 #cinco{
-    margin-top: 4vw;
-    margin-left: 47.5vw;
+    margin-top: 1vw;
+    margin-left: 51.5vw;
     width: 2vw;
     height: 2vw;
     background-color: #3669c9;
     color: white;
     text-align: center;
     border-radius: 2vw;
-    position: relative;
 }
 
 #pregCN{
     width: 85vw;
-    margin-top: 0vw;
-    margin-left: 7vw;
+    margin-top: 2vw;
+    margin-left: 8.5vw;
     font-size: 2vw;
     font-family: letra3;
-    position: relative;
 }
 
 #respCN{
     text-align: center;
-    position: relative;
-    width: 75vw;
-    margin-left: 11.5vw;
-    margin-top: -1.5vw;
+    width: 78vw;
+    margin-left: 14vw;
+    margin-top: 1vw;
     font-size: 1.6vw;
     color: black;
     font-family: letra1;
 }
 
 #cuadritoAzul3{
-    top: 0vw;
-    left: 7vw;
+    margin-top: 3vw;
+    margin-left: 11vw;
     width: 83vw;
-    height: 16vw;
-    position: relative;
+    height: 18vw;
     border-radius: 2vw;
     background-color: rgba(21,127,251,255);
 }
 
 #letrita9{
-    position: relative;
     width: 27vw;
     color: white;
     margin-left: 35.5vw;
-    margin-top: -13vw;
+    margin-top: -14vw;
     font-size: 2.5vw;
     font-family: letra4;
 }
 
 #letrita10{
-    position: relative;
     width: 90vw;
     color: white;
     margin-left: 15vw;
@@ -711,130 +633,118 @@
 }
 
 #cuadroContact{
-    top: -0.5vw;
-    left: 43.3vw;
+    margin-top: -0.5vw;
+    margin-left: 43.3vw;
     width: 12vw;
     height: 3vw;
-    position: relative;
     background-color: white;
     border-radius: 1.3vw;
 }
 
 #contactanos{
-    position: relative;
     color: black;
-    top: -4.8vw;
-    left: 45vw;
+    margin-top: -2.5vw;
+    margin-left: 45vw;
     font-size: 1.7vw;
 }
 
 .cuadroAzul2{
-    position: relative;
     width: 97.9vw;
     height: 10.1vw;
     background-color: #3669c9;
-    top: 2.2vw;
-    left: 1.05vw;
+    margin-top: 6.8vw;
+    margin-left: 1.05vw;
 }
 
 #imgLocation{
-    top: 0.4vw;
-    left: 22vw;
+    margin-top: 0.4vw;
+    margin-left: 22vw;
     width: 1.5vw;
     height: 1.8vw;
     opacity: 1;
-    position: relative;
     font-size: 1vw;
 }
 
 #texto1{
-    position: relative;
     color: white;
-    top: -0.8vw;
-    left: 18vw;
+    margin-top: 0vw;
+    margin-left: 18vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
 
 #texto2{
-    position: relative;
     color: white;
-    top: -1.6vw;
-    left: 12vw;
+    margin-top: -1vw;
+    margin-left: 12vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
 
 #texto3{
-    position: relative;
     color: white;
-    top: -2.4vw;
-    left: 18vw;
+    margin-top: -1vw;
+    margin-left: 18vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
 
 #texto4{
-    position: relative;
     color: white;
-    top: -3.4vw;
-    left: 13vw;
+    margin-top: -1vw;
+    margin-left: 13vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
 
 #imgFooter{
-    top: -10.5vw;
-    left: 42vw;
+    position: relative;
+    top: -7.5vw;
+    margin-left: 42vw;
     width: 20vw;
     height: 4vw;
     opacity: 1;
-    position: relative;
 }
 
 #imgPhone{
-    top: -15vw;
-    left: 63vw;
+    position: relative;
+    top: -14vw;
+    margin-left: 81vw;
     width: 2vw;
     height: 2vw;
     opacity: 1;
-    position: relative;
     font-size: 1vw;
 }
 
 #textos1{
-    position: relative;
     color: white;
-    top: -16vw;
-    left: 73vw;
+    margin-top: -14vw;
+    margin-left: 73vw;
     font-size: 1.2vw;
     font-family: letra1;
     
 }
 
 #textos2{
-    position: relative;
     color: white;
-    top: -17vw;
-    left: 74.5vw;
+    margin-top: -1vw;
+    margin-left: 74.5vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
 
 #textos3{
-    position: relative;
     color: white;
-    top: -18vw;
-    left: 76vw;
+    margin-top: -1vw;
+    margin-left: 76vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
 
 #textos4{
-    position: relative;
     color: white;
-    top: -19vw;
-    left: 72.5vw;
+    margin-top: -1vw;
+    margin-left: 72.5vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
