@@ -19,7 +19,6 @@
 }
 
 .secciones {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,34 +42,41 @@
     margin-top: 3.8vw;
     margin-left: 15vw;
     font-size: 2vw;
+    font-family: letra1;
     text-decoration: none;
 }
 
 #queEs{
     color: white;
-    margin-top: -4.4vw;
+    top: -6.7vw;
+    position: relative;
     margin-left: 25vw;
     font-size: 2vw;
+    font-family: letra1;
+    text-decoration: none;
 }
 
 #imgGobierno{
     position: relative;
     color: black;
     top: -4.6vw;
-    margin-left: 40vw;
+    margin-left: 7vw;
     width: 20vw;
     height: 4vw;
 }
 
 #entrega{
     color: white;
-    margin-top: -8vw;
+    top: -8.9vw;
+    position: relative;
     margin-left: 66vw;
     font-size: 2vw;
+    font-family: letra1;
+    text-decoration: none;
 }
 
 #cuadroConsult{
-    margin-top: -4.5vw;
+    margin-top: -11.5vw;
     margin-left: 82.3vw;
     width: 10vw;
     height: 3vw;
@@ -84,6 +90,7 @@
     position: relative;
     margin-left: 84vw;
     font-size: 1.7vw;
+    font-family: letra1;
     text-decoration: none;
 }
 
@@ -98,18 +105,16 @@
 
 #imgFondo{
     width: 98vw;
-    height: 100vh;
-    margin-top: 0vw;
-    margin-left: 0vw;
+    height: auto;
     opacity: 1;
 }
 
 .cuadroBlanco{
     position: relative;
-    margin-top: -47vw;
+    margin-top: -46vw;
     margin-left: 5.5vw;
     width: 32vw;
-    height: 39vw;
+    height: 37vw;
     background-color: white;
     border-radius: 1.5vw;
 }
@@ -117,41 +122,19 @@
 #letrita{
     color: black;
     font-size: 2vw;
-    margin-left: 6.5vw;
+    margin-left: -1vw;
     margin-top: 1.8vw;
     font-family: letra1;
-}
-
-#letrita1{
-    color: black;
-    font-size: 2vw;
-    margin-left: 12.5vw;
-    margin-top: -2.3vw;
-    font-family: letra1;
-}
-
-#letrita2{
-    color: black;
-    font-size: 2vw;
-    margin-left: 12vw;
-    margin-top: -2.1vw;
-    font-family: letra1;
+    text-align: center;
 }
 
 #letrita3{
     color: black;
     font-size: 1vw;
-    margin-left: 1.8vw;
+    margin-left: -0.5vw;
     margin-top: -2vw;
     font-family: letra1;
-}
-
-#letrita4{
-    color: black;
-    font-size: 1vw;
-    margin-left: 13vw;
-    margin-top: -0.8vw;
-    font-family: letra1;
+    text-align: center;
 }
 
 #letrita5{
@@ -161,48 +144,16 @@
 }
 
 #tipo{
-    width: 25vw;
+    width: 78%;
     height: 1.8vw;
     margin-left: 3vw;
     font-size: 1.2vw;
     font-family: letra1;
-}
-
-#nums{
-    width: 25vw;
-    height: 1.8vw;
-    margin-left: 3vw;
-}
-
-#nombre{
-    width: 25vw;
-    height: 1.8vw;
-    margin-left: 3vw;
-}
-
-#apellido{
-    width: 25vw;
-    height: 1.8vw;
-    margin-left: 3vw;
-}
-
-#fechaE{
-    width: 25vw;
-    height: 2vw;
-    margin-left: 3vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-}
-
-#telf{
-    width: 25vw;
-    height: 1.8vw;
-    margin-left: 3vw;
 }
 
 #cuadritoAzul{
     position: relative;
-    margin-top: -6vw;
+    margin-top: -5vw;
     margin-left: 14.5vw;
     width: 14vw;
     height: 3.2vw;
@@ -267,13 +218,13 @@
 #img2{
     width: 50vw;
     height: 40vw;
-    margin-left: -10vw;
-    margin-top: 8vw;
+    margin-left: 51vw;
+    margin-top: 9vw;
 }
 
 #que{
-    margin-left: -24vw;
-    margin-top: -30vw;
+    margin-left: 30vw;
+    margin-top: -33vw;
     font-size: 3vw;
     color: black;
     font-family: letra1;
@@ -282,8 +233,8 @@
 #esquema{
     text-align: center;
     width: 42vw;
-    margin-left: -143vw;
-    margin-top: -10vw;
+    margin-left: 14vw;
+    margin-top: -36vw;
     font-size: 1.9vw;
     color: black;
     font-family: letra1;
@@ -292,8 +243,8 @@
 #hogares{
     text-align: center;
     width: 50vw;
-    margin-left: -46vw;
-    margin-top: 16vw;
+    margin-left: 11vw;
+    margin-top: 2vw;
     font-size: 1.9vw;
     color: black;
     font-family: letra1;
@@ -301,8 +252,9 @@
 
 #boton3{
     color: black;
-    margin-left: -39vw;
-    margin-top: 38vw;
+    margin-left: 42vw;
+    top: 30vw;
+    position: relative;
     text-decoration: none;
     font-size: 1.5vw;
     font-family: letra1;
@@ -440,6 +392,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    align-content: center;
 }
 
 #pregU{
@@ -468,6 +421,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    align-content: center;
 }
 
 #pregD{
@@ -511,6 +465,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    align-content: center;
 }
 
 #pregT{
@@ -540,6 +495,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    align-content: center;
 }
 
 #pregC{
@@ -585,6 +541,7 @@
     color: white;
     text-align: center;
     border-radius: 2vw;
+    align-content: center;
 }
 
 #pregCN{
