@@ -100,21 +100,20 @@
 
 #fondo1{
     width: 100vw;
-    height: 100vh;
+    height: 51vw;
 }
 
 #imgFondo{
     width: 98vw;
     height: auto;
-    opacity: 1;
 }
 
 .cuadroBlanco{
     position: relative;
-    margin-top: -46vw;
+    margin-top: -45vw;
     margin-left: 5.5vw;
     width: 32vw;
-    height: 37vw;
+    height: 40vw;
     background-color: white;
     border-radius: 1.5vw;
 }
@@ -137,24 +136,186 @@
     text-align: center;
 }
 
-#letrita5{
-    margin-left: 3vw;
+#tipo{
+    position: absolute;
+    top: 9.5vw;
+    width: 80vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra1;
+    color: black;
+    left: -31.5vw;
+}
+
+#cuadro1{
+    width: 23vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    top: 11.5vw;
+    left: 4.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: letra1;
+}
+
+#numero{
+    position: absolute;
+    top: 13.5vw;
+    width: 80vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra1;
+    color: black;
+    left: -30.5vw;
+}
+
+#cuadro2{
+    width: 23vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    top: 15.5vw;
+    left: 4.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 11px;
+    font-family: letra1;
+}
+
+#nombre{
+    position: absolute;
+    top: 17.6vw;
+    width: 80vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra1;
+    color: black;
+    left: -32.5vw;
+}
+
+#cuadro3{
+    width: 23vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    top:19.5vw;
+    left: 4.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 11px;
+    font-family: letra1;
+}
+
+#apellido{
+    position: absolute;
+    top: 21.6vw;
+    width: 80vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra1;
+    color: black;
+    left: -32.5vw;
+}
+
+#cuadro4{
+    width: 23vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    top: 23.5vw;
+    left: 4.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 11px;
+    font-family: letra1;
+}
+
+#fecha{
+    position: absolute;
+    top: 26vw;
+    width: 80vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra1;
+    color: black;
+    left: -28vw;
+}
+
+#cuadro5{
+    width: 23vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    top: 27.8vw;
+    left: 4.5vw;
+    position: absolute;
+    display: flex;
+    color: black;
     font-size: 1vw;
     font-family: letra1;
 }
 
-#tipo{
-    width: 78%;
-    height: 1.8vw;
-    margin-left: 3vw;
-    font-size: 1.2vw;
+#telefono{
+    position: absolute;
+    top: 30vw;
+    width: 80vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: letra1;
+    color: black;
+    left: -32.5vw;
+}
+
+#cuadro6{
+    width: 23vw;
+    height: 2vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    top: 32vw;
+    left: 4.5vw;
+    position: absolute;
+    display: flex;
+    color: black;
+    font-size: 1vw;
     font-family: letra1;
 }
 
 #cuadritoAzul{
     position: relative;
-    margin-top: -5vw;
-    margin-left: 14.5vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
     width: 14vw;
     height: 3.2vw;
     border-radius: 1vw;
@@ -173,18 +334,19 @@
 }
 
 #letrita7{
-    margin-left: 60.3vw;
-    margin-top: -21vw;
-    font-size: 2vw;
+    margin-left: 55.3vw;
+    margin-top: -25vw;
+    font-size: 2.5vw;
     color: black;
     font-family: letra1;
+    width: 20vw;
 }
 
 #letrita8{
-    width: 31vw;
-    margin-left: 52.5vw;
+    width: 40vw;
+    margin-left: 43.5vw;
     margin-top: -1.2vw;
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     color: black;
     font-family: letra1;
     text-align: center;
@@ -193,7 +355,7 @@
 #cuadritoAzul2{
     position: relative;
     margin-top: 1vw;
-    margin-left: 60.5vw;
+    margin-left: 57vw;
     width: 14vw;
     height: 3.2vw;
     border-radius: 1vw;
@@ -201,8 +363,10 @@
 }
 
 #boton2{
+    display: flex;
+    width: 8vw;
     color: white;
-    margin-left: 64vw;
+    margin-left: 60vw;
     position: relative;
     top: -3.5vw;
     text-decoration: none;
@@ -212,19 +376,19 @@
 
 #fondo2{
     width: 100vw;
-    height: 100vh;
+    height: 45vw;
 }
 
 #img2{
     width: 50vw;
     height: 40vw;
     margin-left: 51vw;
-    margin-top: 9vw;
+    margin-top: 4vw;
 }
 
 #que{
     margin-left: 30vw;
-    margin-top: -33vw;
+    margin-top: -34vw;
     font-size: 3vw;
     color: black;
     font-family: letra1;
@@ -253,7 +417,7 @@
 #boton3{
     color: black;
     margin-left: 42vw;
-    top: 30vw;
+    top: 27vw;
     position: relative;
     text-decoration: none;
     font-size: 1.5vw;
@@ -263,7 +427,7 @@
     
 #fondo3{
     width: 100vw;
-    height: 100vh;
+    height: 50vw;
 }
 
 #etapas{
@@ -357,7 +521,7 @@
 #preguntas{
     color: black;
     margin-left: -23vw;
-    top: 8vw;
+    top: 3vw;
     text-decoration: none;
     font-size: 1.8vw;
     font-family: letra1;
@@ -367,12 +531,15 @@
 
 #flechita{
     margin-left: 50.5vw;
-    margin-top: 0vw;
+    width: 2vw;
+    height: 1vw;
+    position: relative;
+    top: 1vw;
 }
 
 #fondo4{
     width: 100vw;
-    height: 100vh;
+    height: 50vw;
 }
 
 #preguntasFrecuentes{
@@ -393,6 +560,7 @@
     text-align: center;
     border-radius: 2vw;
     align-content: center;
+    font-size: 1.5vw;
 }
 
 #pregU{
@@ -422,6 +590,7 @@
     text-align: center;
     border-radius: 2vw;
     align-content: center;
+    font-size: 1.5vw;
 }
 
 #pregD{
@@ -444,7 +613,7 @@
 #verMas{
     color: black;
     margin-left: 48.5vw;
-    top: 3vw;
+    top: 1vw;
     position: relative;
     text-decoration: none;
     font-size: 1.7vw;
@@ -453,7 +622,8 @@
 
 #fondo5{
     width: 100vw;
-    height: 100vh;
+    height: 50vw;
+    margin-top: -1vw;
 }
 
 #tres{
@@ -466,6 +636,7 @@
     text-align: center;
     border-radius: 2vw;
     align-content: center;
+    font-size: 1.5vw;
 }
 
 #pregT{
@@ -496,6 +667,7 @@
     text-align: center;
     border-radius: 2vw;
     align-content: center;
+    font-size: 1.5vw;
 }
 
 #pregC{
@@ -520,7 +692,7 @@
 #verMasU{
     color: black;
     margin-left: 48.5vw;
-    top: 2vw;
+    top: 0vw;
     position: relative;
     text-decoration: none;
     font-size: 1.8vw;
@@ -529,7 +701,7 @@
 
 #fondo6{
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
 #cinco{
@@ -542,6 +714,7 @@
     text-align: center;
     border-radius: 2vw;
     align-content: center;
+    font-size: 1.5vw;
 }
 
 #pregCN{
@@ -563,7 +736,7 @@
 }
 
 #cuadritoAzul3{
-    margin-top: 3vw;
+    margin-top: 2vw;
     margin-left: 11vw;
     width: 83vw;
     height: 18vw;
@@ -607,15 +780,26 @@
 
 .cuadroAzul2{
     width: 97.9vw;
-    height: 10.1vw;
+    height: 11vw;
     background-color: #3669c9;
     margin-top: 6.8vw;
     margin-left: 1.05vw;
 }
 
+#parte1{
+    text-align: center;
+    margin-left: -80vw;
+}
+#parte2{
+    margin-left: -4vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+
 #imgLocation{
+    position: relative;
     margin-top: 0.4vw;
-    margin-left: 22vw;
+    margin-left: 19vw;
     width: 1.5vw;
     height: 1.8vw;
     opacity: 1;
@@ -623,33 +807,10 @@
 }
 
 #texto1{
+    position: relative;
     color: white;
     margin-top: 0vw;
     margin-left: 18vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-}
-
-#texto2{
-    color: white;
-    margin-top: -1vw;
-    margin-left: 12vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-}
-
-#texto3{
-    color: white;
-    margin-top: -1vw;
-    margin-left: 18vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-}
-
-#texto4{
-    color: white;
-    margin-top: -1vw;
-    margin-left: 13vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
@@ -666,7 +827,7 @@
 #imgPhone{
     position: relative;
     top: -14vw;
-    margin-left: 81vw;
+    margin-left: 75vw;
     width: 2vw;
     height: 2vw;
     opacity: 1;
@@ -677,31 +838,6 @@
     color: white;
     margin-top: -14vw;
     margin-left: 73vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-    
-}
-
-#textos2{
-    color: white;
-    margin-top: -1vw;
-    margin-left: 74.5vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-}
-
-#textos3{
-    color: white;
-    margin-top: -1vw;
-    margin-left: 76vw;
-    font-size: 1.2vw;
-    font-family: letra1;
-}
-
-#textos4{
-    color: white;
-    margin-top: -1vw;
-    margin-left: 72.5vw;
     font-size: 1.2vw;
     font-family: letra1;
 }
