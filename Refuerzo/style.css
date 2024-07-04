@@ -374,23 +374,6 @@
     font-family: letra1;
 }
 
-@media only screen and (max-width: 550px) {
-
-    body{
-        background-color: aquamarine;
-    }
-    #fondo1{
-        background-color: #3669c9;
-        height: 60vw;
-    }
-    #cuadritoAzul2{
-        left: -50vw;
-    }
-    #seccion2{
-        background-color: #5ecc79;
-    }
-    
-}
 
 #fondo2{
     width: 100vw;
@@ -442,7 +425,7 @@
     font-family: letra1;
     text-align: center;
 }
-    
+
 #fondo3{
     width: 100vw;
     height: 50vw;
