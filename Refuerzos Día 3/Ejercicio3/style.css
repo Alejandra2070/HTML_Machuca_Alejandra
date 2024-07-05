@@ -1,109 +1,13 @@
-#contenedor{
-    height: 36vw;
-    overflow: hidden;
-    margin-left: 30vw;
+.contenedor{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background: url(imagenes/walker_frames.png);
+    background-position: 0 500px;
+    animation: walker 1s steps(10) infinite; /*steps numero de pasos, son 10 imagenes*/
 }
 
-#dibujito1{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito2{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito3{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito4{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito5{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito6{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito7{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito8{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-#dibujito9{
-    position: relative;
-    animation-name: walkers;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: -282vw;
-    display: grid;
-}
-
-@keyframes walkers{
-    0%{top: 0vw;}
-    10%{top: 0vw;}
-    10.1%{top: -32vw;}
-    20%{top: -32vw;}
-    20.1%{top: -64.5vw;}
-    30%{top: -64.5vw;}
-    30.1%{top: -98.5vw;}
-    40%{top: -98.5vw;}
-    40.1%{top: -132vw;}
-    50%{top: -132vw;}
-    50.1%{top: -166vw;}
-    60%{top: -166vw;}
-    60.1%{top: -199vw;}
-    70%{top: -199vw;}
-    70.1%{top: -232vw;}
-    80%{top: -232vw;}
-    80.1%{top: -271vw;}
-    90%{top: -271vw;}
-    90.1%{top: -349vw;}
-    100%{top: -349vw;}   
+@keyframes walker{
+    0%{background-position: 0px 0px;}
+    100%{background-position: 0px -5000px;}
 }

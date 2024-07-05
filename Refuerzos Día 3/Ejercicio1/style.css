@@ -1,6 +1,7 @@
 #contenedor{
     background:#2c333a;
     width: 100vw;
+    height: 20vw;
     color: aqua;
     justify-content: center;
     display: flex;
