@@ -1,0 +1,91 @@
+#contenedor{
+    width: 100vw;
+    height: 50vw;
+    background-color: #f6e4ca;
+    overflow: hidden;
+}
+
+#cuadroBlanco{
+    background-color: white;
+    width: 30vw;
+    height: 20vw;
+    margin-left: 36vw;
+    margin-top: 8vw;
+    animation: cuadroBlanco 5s forwards;
+}
+
+#img{
+    margin-top: -1vw;
+    width: 4vw;
+    height: 8vw;
+    margin-left: 1vw;
+    animation: img 5s forwards;
+}
+
+#cuadro2{
+    background-color: white;
+    width: 6vw;
+    height: 6vw;
+    margin-left: 48vw;
+    margin-top: -24vw;
+    border-radius: 5vw;
+}
+
+#letrita{
+    color: #f76879;
+    margin-left: 40vw;
+    font-size: 1.8vw;
+    animation: letrita 5s forwards;
+}
+
+#letrita2{
+    font-size: 1.1vw;
+    text-align: center;
+    animation: letrita2 5s forwards;
+}
+
+#cuadro3{
+    color: white;
+    margin-left: 42vw;
+    text-align: center;
+    align-content: center;
+    width: 18vw;
+    height: 3vw;
+    font-size: 1.4vw;
+    background-color: #269db2;
+    transition: background-color 0.3s ease;
+}
+
+#cuadro3:hover {
+    background-color: #f3596b;
+}
+
+@keyframes animation1{
+    0% {top: 50vh;}
+    85% {top: 15vh;}
+    100% {top: 20vh;}  
+}
+
+@keyframes cuadroBlanco{
+    0%{top: 50vh;}
+    85%{top: 15vh;}
+    100%{top: 20vh;}
+}
+
+@keyframes img{
+    0%{top: 50vh;}
+    85%{top: 15vh;}
+    100%{top: 20vh;}
+}
+
+@keyframes letrita{
+    0%{top: 50vh;}
+    85%{top: 15vh;}
+    100%{top: 20vh;}
+}
+
+@keyframes letrita2{
+    0%{top: 50vh;}
+    85%{top: 15vh;}
+    100%{top: 20vh;}
+}
