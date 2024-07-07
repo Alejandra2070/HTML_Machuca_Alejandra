@@ -5,16 +5,16 @@
 
 #cielo{
     position: absolute;
-    width: 100vw;
+    width: 98.5vw;
     height: 50vw;
     z-index: 1vw;
-    top: 0px;
-    left: 0vw;
+    top: 6vw;
+    left: 0.6vw;
 }
 
 #nube{
     position: absolute;
-    top: 5vw;
+    top: 7vw;
     animation-timing-function: linear;
     animation-name: nubes;
     animation-duration:16s;
@@ -23,7 +23,7 @@
 
 #nube1{
     position: absolute;
-    top: 13vw;
+    top: 16vw;
     animation-name: nubes;
     animation-duration: 24s;
     animation-timing-function: linear;
@@ -39,3 +39,52 @@
     }
 }
 
+#lista{
+    display: none;
+}
+
+#menus{
+    width: 100vw;
+    height: 5.5vw;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    background-color: rgb(214, 214, 214);
+}
+
+#menu{
+    margin-left: -7vw;
+    width: 4vw;
+    z-index: 3;
+}
+
+#lista1{
+    margin-left: 76vw;
+    position: fixed;
+    opacity: 0;
+    font-size: 2.2vw;
+    width: 20vw;
+    height: 15vw;
+    margin-top: 6.5vw;
+    text-align: end;
+}
+
+#uno{
+    color: white;
+    text-decoration: none;
+}
+
+#dos{
+    color: white;
+    text-decoration: none;
+}
+
+#tres{
+    color: white;
+    text-decoration: none;
+}
+
+#lista:checked ~ #lista1{
+    opacity: 1;
+}

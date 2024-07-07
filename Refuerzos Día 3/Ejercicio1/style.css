@@ -100,3 +100,53 @@
     50% {transform: rotateX(80deg)}
     100% {transform: rotateX(180deg)}
 }
+
+#lista{
+    display: none;
+}
+
+#menus{
+    width: 100vw;
+    height: 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    background-color: #80bfb2;
+}
+
+#menu{
+    margin-left: 93vw;
+    width: 4vw;
+    z-index: 3;
+}
+
+#lista1{
+    margin-left: 78vw;
+    position: fixed;
+    opacity: 0;
+    font-size: 2.2vw;
+    width: 20vw;
+    height: 15vw;
+    margin-top: 6.5vw;
+    text-align: end;
+}
+
+#uno{
+    color: white;
+    text-decoration: none;
+}
+
+#dos{
+    color: white;
+    text-decoration: none;
+}
+
+#tres{
+    color: white;
+    text-decoration: none;
+}
+
+#lista:checked ~ #lista1{
+    opacity: 1;
+}

@@ -72,3 +72,53 @@ body{
     70%{top: -8vw;}
     100%{top: 2vw;}
 }
+
+#lista{
+    display: none;
+}
+
+#menus{
+    width: 100vw;
+    height: 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    background-color: #fc9188;
+}
+
+#menu{
+    margin-left: -5vw;
+    width: 4vw;
+    z-index: 3;
+}
+
+#lista1{
+    margin-left: 78vw;
+    position: fixed;
+    opacity: 0;
+    font-size: 2.2vw;
+    width: 20vw;
+    height: 15vw;
+    margin-top: 6.5vw;
+    text-align: end;
+}
+
+#uno{
+    color: black;
+    text-decoration: none;
+}
+
+#dos{
+    color: black;
+    text-decoration: none;
+}
+
+#tres{
+    color: black;
+    text-decoration: none;
+}
+
+#lista:checked ~ #lista1{
+    opacity: 1;
+}
