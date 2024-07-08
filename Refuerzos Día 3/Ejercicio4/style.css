@@ -94,14 +94,13 @@ body{
 }
 
 #lista1{
-    margin-left: 78vw;
+    margin-left: 89vw;
     position: fixed;
     opacity: 0;
     font-size: 2.2vw;
     width: 20vw;
     height: 15vw;
-    margin-top: 6.5vw;
-    text-align: end;
+    margin-top: 5.5vw;
 }
 
 #uno{

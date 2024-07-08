@@ -60,14 +60,13 @@
 }
 
 #lista1{
-    margin-left: 76vw;
+    margin-left: 88vw;
     position: fixed;
     opacity: 0;
     font-size: 2.2vw;
     width: 20vw;
     height: 15vw;
     margin-top: 6.5vw;
-    text-align: end;
 }
 
 #uno{

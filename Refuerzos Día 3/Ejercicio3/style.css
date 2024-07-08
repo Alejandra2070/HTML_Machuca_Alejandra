@@ -22,7 +22,6 @@
     height: 5vw;
     align-items: center;
     display: flex;
-    justify-content: end;
     background-color: aquamarine;
 }
 
@@ -33,13 +32,12 @@
 }
 
 #lista1{
-    margin-left: 77vw;
+    margin-left: 89vw;
     opacity: 0;
     font-size: 2.2vw;
     width: 20vw;
     height: 15vw;
-    margin-top: -2.2vw;
-    text-align: end;
+    margin-top: 1vw;
 }
 
 #uno{
