@@ -1,0 +1,61 @@
+body{
+    justify-content: center;
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    background-color: aquamarine;
+}
+
+#cuadrito{
+    background-color: white;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 5vw;
+    margin-top: -22vw;
+}
+
+#cuadrito1{
+    margin-top: 34vw;
+    width: 30vw;
+    height: 10vw;
+    border-radius: 3.5vw;
+    background-color: #dfdbdb;
+    box-shadow: 0px 5px 5px #9a9a9a;
+}
+
+#cuadrito2{
+    margin-left: 1.5vw;
+    margin-top: -28.4vw;
+    width: 27vw;
+    height: 27vw;
+    border-radius: 50%;
+    background-color: #21a7f6;
+}
+
+#triangulo1{
+    width: 0;
+    height: 0;
+    margin-top: -1vw;
+    margin-left: -22.2vw;
+    transform: rotate(0deg);
+    border-top: 10px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 80px solid white;
+    transition: trg1 5s;
+}
+
+#triangulo2{
+    width: 0;
+    height: 0;
+    margin-top: -11vw;
+    margin-left: 5vw;
+    transform: rotate(130deg);
+    border-top: 10px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 80px solid red;
+    transition: trg1 5s;
+}
+
+@keyframes trg1{
+    100%{transform: rotateY(100deg);}
+}
