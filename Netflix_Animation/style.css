@@ -1,0 +1,54 @@
+#contenedor{
+    width: 100vw;
+    height: 50vw;
+    gap: 1vw;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#caja{
+    width: 15vw;
+    height: 12vw;
+    overflow: hidden;
+}
+
+#linea1{
+    width: 2vw;
+    height: 12vw;
+    background-color: #960709;
+    animation: linea1 3s;
+    box-shadow: 0px 0px 3px rgb(56, 56, 56);
+}
+
+#linea2{
+    width: 2.5vw;
+    height: 12vw;
+    transform: skew(26deg);
+    animation: linea2 3s;
+    background-color: #b10609;
+}
+
+#linea3{
+    width: 2vw;
+    height: 12vw;
+    animation: linea3 3s;
+    background-color: #b10609;
+}
+
+@keyframes linea1{
+    0%{height: 2vw; margin-top: 14vw;}
+    100%{height: 12vw;}
+}
+
+@keyframes linea2{
+    0%{height: 0vw; margin-top: -40vw;}
+    100%{margin-top: -12vw; height: 12vw; margin-left: 3vw; }  
+}
+
+@keyframes linea3{
+    0%{margin-left: 15vw; height: 2vw; margin-top: -44vw;}
+    100%{margin-left: 15vw; margin-top: 12vw;}
+}
