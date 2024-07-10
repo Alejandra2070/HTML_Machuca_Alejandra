@@ -1,0 +1,40 @@
+#contenedor{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #d71435;
+    top: 0vw;
+    left: 0vw;
+}
+
+#cajas{
+    background: white;
+    width: 30vw;
+    margin-left: 36vw;
+    margin-top: 8vw;
+}
+
+section p {
+    overflow: hidden;
+    border-bottom: 0.5vw solid #d71435;
+    max-height: 0vw;
+    padding: -1vw;
+    transition: all .4s ease-in-out;
+}
+
+section a {
+    display: block;
+    text-decoration: none;
+    padding: 1.5vw;
+    color: #276eb6;
+}
+
+section:target p{
+    max-height: 9.5vw;
+    padding: 1.5vw;
+    margin-top: -5vw;
+}
+
+section:not(:target p){
+    transition-delay: .1s;
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: letra;
+    src: url(font/Binggo\ Wood\ Font.otf);
+}
+@font-face {
+    font-family: letra1;
+    src: url(font/Cascadia\ \(1\).ttf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(font/MYRIADPRO-BOLD.OTF);
+}
+
+#contenedor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    background: black;
+}
+
+#caja1{
+    border: 1px solid red;
+    background: rgb(37, 36, 36);
+    width: 100vw;
+    height: 55vw;
+    border-style: solid;
+}
+
+#barra{
+    background: #1e1d2b;
+    height: 3vw;
+}
+
+#logo{
+    margin-left: 22vw;
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+    font-family: letra2;
+}
+
+#home{
+    margin-left: 30vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-family: letra1;
+}
+
+#about{
+    margin-left: 3vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-family: letra1;
+}
+
+#menu{
+    margin-left: 3vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-family: letra1;
+}
+
+#contact{
+    margin-left: 3vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-family: letra1;
+}
+
+#img1{
+    margin-left: 36vw;
+    margin-top: 9vw;
+    width: 27vw;
+    height: 27vw;
+}
+
+#start{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-family: letra;
+    margin-top: -34vw;
+}
+
+#with{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-family: letra;
+    margin-top: 33vw;
+}
+
+#cuadrito{
+    margin-top: -2.5vw;
+    margin-left: 42vw;
+    width: 15vw;
+    height: 3vw;
+    background-color: #cb5d2a;
+    color: black;
+    text-align: center;
+}
+
+#caja2{
+    border: 1px solid red;
+    background: black;
+    position: relative;
+    width: 100vw;
+    height: 30vw;
+    border-style: solid;
+}
+
+#img2{
+    margin-left: vw;
+    margin-top: 1vw;
+    width: 38vw;
+    height: 28vw;
+}
+
+#our{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-family: letra;
+    margin-top: -22vw;
+}
+#caja3{
+    border: 1px solid red;
+}
+
+#caja4{
+    border: 1px solid red;
+}
+
+#caja5{
+    border: 1px solid red;
+}
