@@ -24,8 +24,13 @@ body{
 }
 
 #cuadrito2{
-    margin-left: 1.5vw;
-    margin-top: -28.4vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 37vw;
+    top: 14vw;
     width: 27vw;
     height: 27vw;
     border-radius: 50%;
@@ -35,27 +40,34 @@ body{
 #triangulo1{
     width: 0;
     height: 0;
-    margin-top: -1vw;
-    margin-left: -22.2vw;
-    transform: rotate(0deg);
-    border-top: 10px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 80px solid white;
-    transition: trg1 5s;
+    transform: rotate(40deg);
+    border-right: 1vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-left: 11vw solid white;
+    transition: transform 1s ease;
+    transform-origin: center top;
 }
 
 #triangulo2{
     width: 0;
     height: 0;
-    margin-top: -11vw;
-    margin-left: 5vw;
-    transform: rotate(130deg);
-    border-top: 10px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 80px solid red;
-    transition: trg1 5s;
+    transform: rotate(40deg);
+    border-right: 1vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-left: 11vw solid red;
+    transition: transform 1s ease;
+    transform-origin: bottom top;
 }
 
-@keyframes trg1{
-    100%{transform: rotateY(100deg);}
+#cuadrito1:hover #triangulo1{
+    transform: rotate(-320deg);
+}
+
+#cuadrito1:hover #triangulo2{
+    transform: rotate(-320deg);
+}
+
+@keyframes tg{
+    0%{margin-left: 15vw;}
+    100%{margin-left: 15vw;}
 }
