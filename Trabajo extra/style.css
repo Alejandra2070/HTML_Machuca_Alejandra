@@ -10,7 +10,10 @@
     font-family: letra2;
     src: url(font/MYRIADPRO-BOLD.OTF);
 }
-
+@font-face {
+    font-family: letra3;
+    src: url(font/Mermaid1001.ttf);
+}
 #contenedor{
     position: absolute;
     top: 0;
@@ -21,15 +24,14 @@
 }
 
 #caja1{
-    border: 1px solid red;
-    background: rgb(37, 36, 36);
+    background: #0d0d0d;
     width: 100vw;
     height: 55vw;
     border-style: solid;
 }
 
 #barra{
-    background: #1e1d2b;
+    background: black;
     height: 3vw;
 }
 
@@ -104,10 +106,10 @@
     background-color: #cb5d2a;
     color: black;
     text-align: center;
+    font-size: 2vw;
 }
 
 #caja2{
-    border: 1px solid red;
     background: black;
     position: relative;
     width: 100vw;
@@ -123,20 +125,234 @@
 }
 
 #our{
-    text-align: center;
-    font-size: 4vw;
+    font-size: 5vw;
     color: white;
     font-family: letra;
-    margin-top: -22vw;
+    margin-top: -19vw;
+    margin-left: 53vw;
+}
+
+#linea{
+    width: 7vw;
+    height: 0.3vw;
+    border-radius: 1vw;
+    background-color: white;
+    margin-left: 44vw;
+    margin-top: -11.5vw;
+}
+
+#lorem{
+    color: white;
+    margin-left: 53vw;
+    font-size: 1.3vw;
+    margin-top: -3vw;
+    font-family: letra2;
 }
 #caja3{
-    border: 1px solid red;
+    background: black;
+    position: relative;
+    width: 100vw;
+    height: 30vw;
+    border-style: solid;
+}
+
+#perfect{
+    font-size: 3vw;
+    color: white;
+    font-family: letra3;
+    margin-top: 10vw;
+    margin-left: 12vw;
+}
+
+#lorem2{
+    color: white;
+    margin-left: 12vw;
+    font-size: 1.1vw;
+    margin-top: -2vw;
+    font-family: letra2;
+}
+
+#cuadrito2{
+    margin-top: 1vw;
+    margin-left: 12vw;
+    width: 8vw;
+    height: 1.7vw;
+    background-color: #cb5d2a;
+    color: black;
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+#img3{
+    margin-left: 58vw;
+    margin-top: -20vw;
+    width: 24vw;
+    height: 22vw;
 }
 
 #caja4{
-    border: 1px solid red;
+    background: black;
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+    border-style: solid;
+}
+
+#products{
+    font-size: 3.5vw;
+    color: white;
+    font-family: letra3;
+    margin-top: 10vw;
+    margin-left: 12vw;
+}
+
+#rcg1{
+    border: #d0a360 2px solid;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 15vw;
+    margin-top: 9vw;
+}
+
+#imagen1{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 5vw;
+    margin-top: -2.5vw;
+}
+
+#mocha{
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    font-family: letra2;
+}
+
+#espresso{
+    font-size: 1.2vw;
+    color: white;
+    margin-left: 4vw;
+    margin-top: 2.5vw;
+    font-family: letra2;
+}
+
+#chocolate{
+    font-size: 1.2vw;
+    color: white;
+    margin-left: 4vw;
+    margin-top: -0.5vw;
+    font-family: letra2;
+}
+
+#steamed{
+    font-size: 1.2vw;
+    color: white;
+    margin-left: 4vw;
+    margin-top: -0.5vw;
+    font-family: letra2;
+}
+
+#cuadrito3{
+    margin-top: 1vw;
+    margin-left: 4vw;
+    width: 7vw;
+    height: 1.9vw;
+    background-color: #cb5d2a;
+    color: black;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#rcg2{
+    border: #d0a360 2px solid;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 41.5vw;
+    margin-top: -20.1vw;
+}
+
+#rcg3{
+    border: #d0a360 2px solid;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 67.5vw;
+    margin-top: -20.1vw;
+}
+
+#linea2{
+    width: 25vw;
+    height: 0.2vw;
+    border-radius: 1vw;
+    background: #d0a360;
+    margin-left: 37vw;
+    margin-top: 3vw;
 }
 
 #caja5{
-    border: 1px solid red;
+    background: black;
+    position: relative;
+    width: 100vw;
+    height: 28vw;
+    border-style: solid;
+}
+
+#sit{
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 15vw;
+}
+
+#aboutUs{
+    font-size: 2.2vw;
+    color: white;
+    margin-left: 20vw;
+    margin-top: 8vw;
+    font-family: letra2;
+}
+
+#sit1{
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    margin-left: 40vw;
+}
+
+#contactUs{
+    font-size: 2.2vw;
+    color: white;
+    margin-left: 45vw;
+    margin-top: -8.5vw;
+    font-family: letra2;
+}
+#sit2{
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    margin-left: 65vw;
+}
+
+#opening{
+    font-size: 2.2vw;
+    color: white;
+    margin-left: 68vw;
+    margin-top: -8.6vw;
+    font-family: letra2;
+}
+
+#linea3{
+    width: 25vw;
+    height: 0.2vw;
+    border-radius: 1vw;
+    background: #d0a360;
+    margin-left: 37vw;
+    margin-top: 8vw;
+}
+
+#copy{
+    color: white;
+    font-size: 1vw;
+    margin-left: 41vw;
+}
+#color1{
+    color: #d0a360;
 }
